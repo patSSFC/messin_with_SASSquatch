@@ -1,0 +1,20 @@
+@media (max-width: 414px) {
+    #hero-wrap img {
+        width: 80%;
+    }
+
+    #logo-wrap img {
+        width: 50%;
+    }
+
+    #logo-wrap #track {
+        width: 54%;
+    }
+
+    #sodo {
+        margin-bottom: 15px;
+    }
+}
+
+
+

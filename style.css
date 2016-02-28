@@ -1,0 +1,173 @@
+/*******************************/
+/***********PAGE SETUP**********/
+/*******************************/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Tahoma', sans-serif;
+    background-color: #F9FAFD;
+}
+
+#main-wrap {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/***********GENERAL CLASS**********/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*******************************/
+/*************HEADER************/
+/*******************************/
+
+/*#head-wrap {
+    margin: 0 auto;
+    background-color: #D2D7D3;
+}*/
+
+header {
+    /*width: 80%;*/
+    /*background-color: #D2D7D3;*/
+    background-color: #ffffff;
+    margin: 0 auto;
+    height: 50px;
+    border-bottom: 1px #e1e5f0 solid;
+}
+
+/*************4C Logo************/
+
+#logo-4c-wrap {
+    height: 50px;
+    width: 7.5%;
+    float: left;
+    margin: 5px 1.25% 0 1.25%;
+}
+
+#logo-4c-wrap img {
+    height: 90%;
+}
+
+
+/*************NAV************/
+
+nav {
+    width: 87.5%;
+    float: right;
+    margin: 0 1.25% 0 1.25%;
+}
+
+#nav-list {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 15px;
+}
+
+#nav-list li {
+    text-align: center;
+    float: left;
+    list-style: none;
+    width: 18%;
+    margin: 0 1%;
+}
+
+/*******************************/
+/***************HERO************/
+/*******************************/
+
+#hero-wrap {
+    margin-top: 30px;
+}
+
+#hero-wrap img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    opacity: .8;
+}
+
+/***************ENTER************/
+
+#enter-wrap {
+    margin: 30px auto 0 auto;
+    width: 150px;
+    height: 30px;
+    background-color: #D2D7D3;
+    text-align: center;
+    border-radius: 2px;
+}
+
+#enter-wrap a:link, #enter-wrap a:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    font-size: 14px;
+    padding-top: 8px;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+
+#enter-wrap a:hover, #enter-wrap a:active {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+/***************SODO TRACK LOGO************/
+
+#logo-wrap {
+    width: 100%;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+#logo-wrap img {
+    width: 25%;
+}
+
+#logo-wrap #track {
+    width: 29%;
+}
+
+.copy-wrap {
+    width: 40%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    word-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
