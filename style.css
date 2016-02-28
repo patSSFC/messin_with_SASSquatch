@@ -11,7 +11,7 @@ body {
 }
 
 #main-wrap {
-    max-width: 960px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -97,7 +97,7 @@ nav {
 #hero-wrap img {
     display: block;
     margin: 0 auto;
-    width: 40%;
+    width: 30%;
     opacity: .8;
 }
 

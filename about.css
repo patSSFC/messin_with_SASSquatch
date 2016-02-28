@@ -1,0 +1,42 @@
+#about-main-wrap {
+    margin: 80px auto;
+    padding: 0;
+}
+
+#image-wrap {
+    float: left;
+    margin: 0;
+    width: 60%;
+}
+
+#image-wrap img {
+    width: 100%;
+}
+
+#artist-about-wrap {
+    float: right;
+    margin: 0;
+    width: 33%;
+}
+
+.about-copy-wrap {
+    float: left;
+    width: 50%;
+}
+
+#artist-pic {
+    float: right;
+    width: 25%;
+}
+
+#artist-pic img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#artist-statement {
+    clear: both;
+    padding-top: 15px;
+    line-height: 1.5em;
+    letter-spacing: .05em;
+}
