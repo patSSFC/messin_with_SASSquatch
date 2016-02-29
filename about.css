@@ -19,9 +19,14 @@
     width: 33%;
 }
 
-.about-copy-wrap {
+.artist-copy {
     float: left;
     width: 50%;
+}
+
+.artist-copy h2 {
+    font-family: 'Lusitana', 'Lato', sans-serif;
+    margin-top: 0;
 }
 
 #artist-pic {
