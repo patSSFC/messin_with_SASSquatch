@@ -44,6 +44,7 @@ h1, h2, h3 {
     margin: 0 auto;
     line-height: 1.5em;
     word-spacing: 2px;
+    text-align: center;
 }
 
 .sub-header h3{
@@ -204,7 +205,6 @@ nav {
 
 #sub-logo-copy {
     font-family: 'Lusitana', 'Lato', sans-serif;
-    text-align: center;
     margin-top: 20px;
 }
 
@@ -227,8 +227,7 @@ nav {
     font-weight: 700;
 }
 
-#what .copy-wrap {
-    text-align: center;
+#what .copy-wrap, #who .copy-wrap {
     width: 60%;
 }
 
