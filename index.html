@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="styles/style.css">
         <link type="text/css" rel="stylesheet" href="styles/queries.css">
+        <link rel="stylesheet" href="unslider-master/dist/css/unslider.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     </head>
@@ -51,10 +52,11 @@
                     <p id="abstract">
                         <span>Summer 2016 &amp; 17</span> <span>32 Buildings</span> <span>54 Artists</span>
                     </p>
+                    <p class="copy-wrap row">
+                        Lorem asdfasdfasipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel augue ac mi tempus iaculis. In tincidunt
+                    </p>
                 </div>
-                <p class="copy-wrap row">
-                    Lorem asdfasdfasipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel augue ac mi tempus iaculis. In tincidunt
-                </p>
+
                 <div id="button-wrap" class="row">
                     <a href="#" class="button full">Learn about us</a>
                     <a href="#" class="button ghost">Meet our partners</a>
@@ -64,14 +66,46 @@
             <section id="who">
                 <div class="row sub-header">
                     <h3>Who is painting the walls</h3>
+                    <p class="copy-wrap row">
+                        Lorem asdfasdfasipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel augue ac mi tempus iaculis. In tincidunt
+                    </p>
                 </div>
-                <p class="copy-wrap row">
-                    Lorem asdfasdfasipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel augue ac mi tempus iaculis. In tincidunt
-                </p>
+
                 <div id="button-wrap" class="row">
                     <a href="#" class="button full">Learn about us</a>
                 </div>
+
+                <div id="myslider" class="row">
+                    <ul>
+                        <li><img src="images/evo%201.jpeg"></li>
+                        <li><img src="images/evo%201.jpeg"></li>
+                        <li><img src="images/evo%201.jpeg"></li>
+                    </ul>
+                </div>
             </section>
+
+            <section id="schedule">
+              <div class="sub-header">
+                <h3>What our schedule looks like</h3>
+                <p class="copy-wrap row">
+                    Lorem asdfasdfasipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel augue ac mi tempus iaculis. In tincidunt
+                </p>
+              </div>
+
+            </section>
+
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="unslider-master/src/js/unslider.js"></script>
+        <script>
+            $(function() {
+                $('#myslider').unslider({
+                  nav: false,
+                  arrows: false,
+                  autoplay: true,
+                  infinite: true
+                });
+            });
+        </script>
     </body>
 </html>

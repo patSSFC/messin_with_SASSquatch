@@ -62,6 +62,15 @@ h1, h2, h3 {
     font-size: 120%;
 }
 
+.full {
+    background-color: #7FCAAD;
+    color: #fff;
+}
+
+.ghost {
+    color: #7FCAAD;
+}
+
 /*******************************/
 /*************HEADER************/
 /*******************************/
@@ -236,32 +245,15 @@ nav {
     text-align: center;
 }
 
-.full {
-    background-color: #7FCAAD;
-    color: #fff;
+/*******************************/
+/**************WHO**************/
+/*******************************/
+
+#myslider {
+  width: 65%;
+  margin: 25px auto;
 }
 
-.ghost {
-    color: #7FCAAD;
+#myslider li img {
+  width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
