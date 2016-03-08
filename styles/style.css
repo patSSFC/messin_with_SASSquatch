@@ -240,9 +240,10 @@ nav {
     width: 60%;
 }
 
-#button-wrap {
+.button-wrap {
     margin-top: 30px;
     text-align: center;
+    width: 100%;
 }
 
 /*******************************/
@@ -256,4 +257,61 @@ nav {
 
 #myslider li img {
   width: 100%;
+}
+
+#col-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#col-wrap ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+#col-wrap li {
+  display: block;
+  padding: 5px;
+  margin: 20px 15px;
+}
+
+
+#left {
+  float: left;
+  width: 45%;
+}
+
+#right {
+  float: right;
+  width: 45%;
+}
+
+/*******************************/
+/**************SCHEDULE**************/
+/*******************************/
+
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-spacing: 0 20px;
+}
+
+#contact-form #row1 input {
+  width: 90%;
+  height: 50px;
+}
+
+#contact-form #row2 input {
+  height: 50px;
+  width: 95%;
+}
+
+#contact-form input {
+  padding-left: 20px;
+  font-size: 150%;
+  font-weight: 100;
+}
+
+#contact-form input:focus {
+  outline: none;
 }
