@@ -267,12 +267,13 @@ nav {
 #col-wrap ul{
   list-style-type: none;
   text-align: center;
+  padding: 0;
 }
 
 #col-wrap li {
   display: block;
   padding: 5px;
-  margin: 20px 15px;
+  margin: 100px 15px;
 }
 
 
