@@ -250,18 +250,27 @@ nav {
 /**************WHO**************/
 /*******************************/
 
-#myslider {
+/*#myslider {
   width: 65%;
   margin: 25px auto;
 }
 
 #myslider li img {
   width: 100%;
+}*/
+
+.carousel-contain {
+  width: 100%;
+}
+
+.owl-carousel {
+  width: 90%;
+  margin: 25px auto;
 }
 
 #col-wrap {
   width: 90%;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 #col-wrap ul{
@@ -273,7 +282,7 @@ nav {
 #col-wrap li {
   display: block;
   padding: 5px;
-  margin: 100px 15px;
+  marign-bottom: 100px;
 }
 
 
