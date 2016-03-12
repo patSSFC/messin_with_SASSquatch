@@ -199,18 +199,18 @@ nav {
 /***************SODO TRACK LOGO************/
 
 #logo-wrap {
-    width: 100%;
+    width: 50%;
     margin: 20px auto 0 auto;
     text-align: center;
 }
 
 #logo-wrap img {
-    width: 25%;
+    width: 100%;
 }
 
 #logo-wrap #track {
     width: 29%;
-}
+}*/
 
 #sub-logo-copy {
     font-family: 'Lusitana', 'Lato', sans-serif;
@@ -226,9 +226,30 @@ nav {
 }
 
 #abstract {
+    width: 100%;
+    margin-bottom: 25px;
     text-align: center;
-    font-size: 200%;
 }
+
+#abstract img {
+  height: auto;
+  margin-right: 50px;
+  position: relative;
+}
+
+#abstract img:nth-of-type(1) {
+  width: 30%;
+}
+
+#abstract img:nth-of-type(2) {
+  width: 20%;
+  top: 10px;
+}
+
+#abstract img:nth-of-type(3) {
+  width: 15%;
+}
+
 
 .sub-header span {
     display: inline-block;
