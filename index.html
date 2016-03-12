@@ -4,12 +4,15 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="styles/style.css">
-        <link type="text/css" rel="stylesheet" href="styles/queries.css">
-        <link rel="stylesheet" href="unslider-master/dist/css/unslider.css">
+        <title>SODO Track</title>
+        <!-- <link rel="stylesheet" href="unslider-master/dist/css/unslider.css"> -->
+        <link rel="stylesheet" type="text/css" href="owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="styles/style.css">
+        <link type="text/css" rel="stylesheet" href="styles/queries.css">
     </head>
+
     <body>
         <div id="head-wrap">
             <header class="clearfix">
@@ -69,24 +72,33 @@
             </section>
 
             <section id="who">
-                <div class="row sub-header">
-                    <h3>Who is painting the walls</h3>
-                    <p class="copy-wrap">
-                        Lorem asdfasdfasipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel augue ac mi tempus iaculis. In tincidunt
-                    </p>
-                </div>
+              <div class="row sub-header">
+                  <h3>Who is painting the walls</h3>
+                  <p class="copy-wrap">
+                      Lorem asdfasdfasipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel augue ac mi tempus iaculis. In tincidunt
+                  </p>
+              </div>
 
-                <div class="row button-wrap">
-                    <a href="#" class="button full">Learn about us</a>
-                </div>
+              <div class="row button-wrap">
+                  <a href="#" class="button full">Learn about us</a>
+              </div>
 
-                <div id="myslider" class="row">
+                <!-- <div id="myslider" class="row">
                     <ul>
                         <li><img src="images/evo%201.jpeg"></li>
                         <li><img src="images/evo%201.jpeg"></li>
                         <li><img src="images/evo%201.jpeg"></li>
                     </ul>
+                </div> -->
+              <div class="carousel-contain">
+                <div class="owl-carousel">
+                  <li><img src="images/evo%201.jpeg"></li>
+                  <li><img src="images/evo%201.jpeg"></li>
+                  <li><img src="images/evo%201.jpeg"></li>
+                  <li><img src="images/evo%201.jpeg"></li>
+                  <li><img src="images/evo%201.jpeg"></li>
                 </div>
+              </div>
             </section>
 
             <section id="schedule">
@@ -148,15 +160,27 @@
 
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script src="unslider-master/src/js/unslider.js"></script>
+        <script src="owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+        <!-- <script src="unslider-master/src/js/unslider.js"></script> -->
         <script>
             $(function() {
-                $('#myslider').unslider({
-                  nav: false,
-                  arrows: false,
+                // $('#myslider').unslider({
+                //   nav: false,
+                //   arrows: false,
+                //   autoplay: true,
+                //   infinite: true
+                // });
+                $('.owl-carousel').owlCarousel({
+                  loop: true,
+                  dots: false,
                   autoplay: true,
-                  infinite: true
-                });
+                  center: true,
+                  autoplayTimeout: 700,
+                  stagePadding: 10,
+                  margin: 20,
+                  items: 1.3
+                  }
+                );
             });
         </script>
     </body>

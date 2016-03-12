@@ -271,29 +271,39 @@ nav {
 /**************WHO**************/
 /*******************************/
 
-#myslider {
+/*#myslider {
   width: 65%;
   margin: 25px auto;
 }
 
 #myslider li img {
   width: 100%;
+}*/
+
+.carousel-contain {
+  width: 100%;
+}
+
+.owl-carousel {
+  width: 100%;
+  margin: 25px auto;
 }
 
 #col-wrap {
   width: 90%;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 #col-wrap ul{
   list-style-type: none;
   text-align: center;
+  padding: 0;
 }
 
 #col-wrap li {
   display: block;
   padding: 5px;
-  margin: 20px 15px;
+  marign-bottom: 100px;
 }
 
 
