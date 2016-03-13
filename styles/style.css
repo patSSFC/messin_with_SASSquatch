@@ -63,6 +63,7 @@ h1, h2, h3 {
 .sub-header h3{
     font-weight: 100;
     font-size: 150%;
+    color: #92CEB7;
 }
 
 .button {
@@ -90,7 +91,7 @@ h1, h2, h3 {
 
 #head-wrap {
     margin: 0 auto;
-    height: 80px;
+    height: 62px;
     background-color: #fff;
     border-bottom: 1px #e1e5f0 solid;
 }
@@ -109,13 +110,9 @@ header {
 #logo-sodo-wrap {
     float: left;
     margin: 5px 1.25% 0 1.25%;
-    width: 45%;
+    width: 15%;
 }
 
-#logo-sodo-wrap img {
-    /*width: 45%;*/
-    /*width: 50%;*/
-}
 
 
 /*************NAV************/
@@ -123,7 +120,7 @@ header {
 nav {
     width: 40%;
     float: right;
-    margin: 0 1.25% 0 1.25%;
+    margin: 0 0 0 1.25%;
 }
 
 #nav-list {
@@ -140,9 +137,6 @@ nav {
     color: #9BA5BD;
     text-align: center;
     height: 100%;
-    padding: 5px 15px;
-    text-align: right;
-    float: left;
     list-style: none;
 }
 
@@ -159,12 +153,12 @@ nav {
 
 #hero-wrap {
     width: 30%;
+    margin: 0 auto;
 }
 
 #hero-wrap img {
     display: block;
     width: 100%;
-    margin: 0 auto;
     opacity: .8;
 }
 
@@ -373,7 +367,7 @@ table {
 
 
 #footer {
-  background: #6C7A89;
+  background: #9BA5BD;
 }
 
 #left-contain {
@@ -414,8 +408,67 @@ table {
 
 #right-contain li {
   padding-bottom: 10px;
+  color: #858CA0;
 }
 
 #copyright {
   font-size: 50%;
+}
+
+@media only screen and (max-width: 1130px) {
+  nav {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+
+  #head-wrap {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  header {
+    padding-top: 0;
+  }
+
+  #logo-sodo-wrap {
+    display: none;
+  }
+
+  nav {
+    width: 100%;
+    float: none;
+  }
+
+  .copy-wrap {
+    width: 60%;
+  }
+
+  #footer-inner-wrap.row {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  #left-contain, #right-contain {
+    float: none;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #left-contain figure {
+    margin: 0 auto;
+  }
+
+  #left-contain .copy-wrap {
+    text-align: center;
+  }
+
+  #right-contain ul {
+    float: none;
+    width: auto;
+    padding-left: 20px;
+    text-align: center;
+  }
 }
