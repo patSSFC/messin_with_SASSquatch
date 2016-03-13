@@ -6,7 +6,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', 'Helvetica', 'Tahoma', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #9BA5BD;
     background-color: #F9FAFD;
     box-sizing: border-box;
 }
@@ -26,7 +28,6 @@ body {
 
 section {
     padding: 30px 0;
-    border-bottom: 1px solid grey;
 }
 
 h1, h2, h3 {
@@ -39,22 +40,26 @@ h1, h2, h3 {
 }
 
 .copy-wrap {
-    width: 45%;
-    font-size: 110%;
+    width: 46%;
+    font-size: 15px;
+    font-weight: 300;
+    color: #676b79;
     margin: 0 auto;
-    line-height: 1.5em;
+    line-height: 1.6em;
     word-spacing: 2px;
     text-align: center;
 }
 
 .sub-header h3{
     font-weight: 100;
-    font-size: 150%;
+    font-size: 175%;
+    color: #92CEB7;
+    margin-top: 50px;
 }
 
 .button {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 15px 32px;
     border: 1px solid #7FCAAD;
     border-radius: 2px;
     margin: 0 10px;
@@ -63,6 +68,7 @@ h1, h2, h3 {
 }
 
 .full {
+    margin-top: 30px;
     background-color: #7FCAAD;
     color: #fff;
 }
@@ -77,7 +83,7 @@ h1, h2, h3 {
 
 #head-wrap {
     margin: 0 auto;
-    height: 80px;
+    height: 62px; 
     background-color: #fff;
     border-bottom: 1px #e1e5f0 solid;
 }
@@ -94,8 +100,8 @@ header {
 
 #logo-sodo-wrap {
     float: left;
-    margin: 5px 1.25% 0 1.25%;
-    width: 45%;
+    margin: 6px 1.25% 0 0; 
+    width: 40%; 
 }
 
 #logo-sodo-wrap img {
@@ -107,9 +113,9 @@ header {
 /*************NAV************/
 
 nav {
-    width: 40%;
+    width: 36%;
     float: right;
-    margin: 0 1.25% 0 1.25%;
+    margin: 0 0% 0 1.25%;
 }
 
 #nav-list {
@@ -117,15 +123,14 @@ nav {
     height: 100%;
     margin: 0 auto;
     position: relative;
-    padding-top: 15px;
+    padding-top: 1px;
 }
 
 #nav-list li {
     display: inline-block;
     height: 100%;
-    margin: 0 2%;
-    padding: 5px 15px;
-    color: lightgrey;
+    padding: 10 20px;
+    color: #9BA5BD;
     text-align: right;
     float: left;
     list-style: none;
@@ -133,8 +138,10 @@ nav {
 
 #nav-list li:last-child {
     text-align: center;
+    padding: 12px 20px;
     color: #fff;
-    background-color: #7FCAAD;
+    background-color: #92CEB7;
+    border-radius: 2px;
 }
 
 /*******************************/
@@ -147,21 +154,21 @@ nav {
 
 #hero-wrap img {
     display: block;
-    margin: 0 auto;
-    width: 30%;
+    margin: 30px auto;
+    width: 26%;
     opacity: .8;
 }
 
 /***************ENTER************/
 
 #enter-wrap {
-    margin: 30px auto 0 auto;
-    padding: 5px 10px;
+    margin: 24px auto 32px auto;
+    padding: 4px 16px;
     width: 200px;
-    height: 45px;
+    height: 44px;
     text-align: center;
-    border: 1px solid grey;
-    border-radius: 25px;
+    border: 1px solid #c6cbd4;
+    border-radius: 30px;
 }
 
 #enter-wrap a:link, #enter-wrap a:visited {
@@ -177,7 +184,7 @@ nav {
 
 #enter-wrap a:hover, #enter-wrap a:active {
     text-decoration: none;
-    color: aquamarine;
+    color: #92CEB7;
 }
 
 #play-contain {
@@ -214,7 +221,9 @@ nav {
 
 #sub-logo-copy {
     font-family: 'Lusitana', 'Lato', sans-serif;
-    margin-top: 20px;
+    font-size: 15px
+    color: #676b79;
+    margin-top: 30px;
 }
 
 /*******************************/
@@ -241,7 +250,6 @@ nav {
 }
 
 .button-wrap {
-    margin-top: 30px;
     text-align: center;
     width: 100%;
 }
@@ -317,9 +325,9 @@ table {
 }
 
 #contact-form input {
-  padding-left: 20px;
-  font-size: 150%;
-  font-weight: 100;
+    padding-left: 16px;
+    font-size: 14px;
+    font-weight: 100;
 }
 
 #contact-form input:focus {
