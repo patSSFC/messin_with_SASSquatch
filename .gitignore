@@ -1,0 +1,6 @@
+*.esproj
+.DS_Store
+.codekit-cache
+node_modules
+images/sprites
+unslider-master/
