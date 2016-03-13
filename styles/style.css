@@ -350,3 +350,25 @@ table {
 #contact-form input:focus {
   outline: none;
 }
+
+/*******************************/
+/**************FOOTER***********/
+/*******************************/
+
+#left-contain {
+  width: 30%;
+}
+
+#left-contain figure {
+  width: 50%;
+}
+
+#left-contain img {
+  width: 100%;
+}
+
+#left-contain .copy-wrap {
+  font-size: 60%;
+  width: 100%;
+  text-align: right;
+}
