@@ -115,6 +115,10 @@ header {
     margin-left: 15px;
 }
 
+#logo-sodo-wrap img {
+    width: 200px;
+}
+
 /*************NAV************/
 
 nav {
@@ -124,7 +128,7 @@ nav {
 }
 
 #responsive-nav {
-  padding: 5px 0;
+  padding: 10px 0;
   font-size: 80%;
 }
 
@@ -382,9 +386,10 @@ table {
 }
 
 #contact-form input {
-  padding-left: 20px;
+  padding-left: 5px;
   font-size: 150%;
   font-weight: 100;
+  border: 1px solid lightgrey;
 }
 
 #contact-form input:focus {
@@ -474,6 +479,7 @@ table {
 
   #logo-sodo-wrap {
     width: 25%;
+    padding-top: 5px;
   }
 
   #right-contain {
@@ -493,9 +499,12 @@ table {
   }
 
   #row1 input, #row2 input {
+    display: block;
     width: 100%;
+    margin-bottom: 10px;
+    font-size: 120%;
   }
-
+    
   #contact-form a.button {
     width: 100%;
   }
@@ -505,6 +514,27 @@ table {
   #responsive-nav {
     display: none;
   }
+}
+
+@media only screen and (max-width: 820px) {
+    #left-contain, #right-contain {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #left-contain figure {
+        margin: 0 auto;
+    }
+    
+    #left-contain .copy-wrap {
+        margin-top: 10px;
+        text-align: inherit;
+    }
+    
+    #right-contain ul {
+        float: none;
+        text-align: inherit;
+    }
 }
 
 @media only screen and (max-width: 780px) {
