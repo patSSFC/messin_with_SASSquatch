@@ -9,6 +9,8 @@
         <link rel="stylesheet" type="text/css" href="owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css" rel="stylesheet">
+
         <link type="text/css" rel="stylesheet" href="styles/style.css">
         <link type="text/css" rel="stylesheet" href="styles/queries.css">
     </head>
@@ -19,7 +21,8 @@
                 <div id="logo-sodo-wrap">
                     <img src="images/sodo_track_logo_nav-crop.png" alt="SODO logo">
                 </div>
-                <nav>
+                <span id="hamburger" class="ion-navicon-round"></span>
+                <nav id="nav-contain">
                     <ul id="nav-list">
                         <li class="">About</li>
                         <li>Artists</li>
@@ -28,6 +31,16 @@
                     </ul>
                 </nav>
             </header>
+            <div id="responsive-nav" class="clearfix">
+              <nav id="nav-contain-test">
+                  <ul id="nav-list">
+                      <li class="">About</li>
+                      <li>Artists</li>
+                      <li>Walls</li>
+                      <li><a href="#">Apply for a wall</a></li>
+                  </ul>
+              </nav>
+            </div>
         </div>
 
         <div id="main-wrap">
@@ -36,12 +49,10 @@
                     <img src="images/sodo_track_horse_crop.png" alt="SODO Track Logo">
                 </div>
                 <div id="logo-wrap" class="row">
-                    <!-- <img id="sodo" src="images/Sodo-crop.png">
-                    <img id="track" src="images/Track-crop.png"> -->
                     <img src="images/sodo_track_logo_main.png" alt="SODO Track logo">
                 </div>
-                <div class="copy-wrap row" id="sub-logo-copy">
-                    <p>
+                <div>
+                    <p class="copy-wrap" id="sub-logo-copy">
                         The SODO Track is a collective funded by 4Culture and the<br /> City of Seattle to paint the walls of Seattle's bus corridor.
                     </p>
                 </div>
@@ -55,8 +66,8 @@
                     <h3>What we're building</h3>
                     <div id="abstract">
                       <img src="images/sprites/summer_grey.png" alt="Summer 2016/2017">
-                      <img id="buildings" src="images/sprites-test/32-buildings.png" alt="32 Buildings">
-                      <img id="artists" src="images/sprites-test/54-artists.svg">
+                      <img id="buildings" src="images/sprites-test/32-buildings-scale.png" alt="32 Buildings">
+                      <img id="artists" src="images/sprites-test/54-artists-scale.png">
 
                         <!-- <span>Summer 2016 &amp; 17</span> <span>32 Buildings</span> <span>54 Artists</span> -->
                     </div>
@@ -83,20 +94,27 @@
                   <a href="#" class="button full">Learn about us</a>
               </div>
 
-                <!-- <div id="myslider" class="row">
-                    <ul>
-                        <li><img src="images/evo%201.jpeg"></li>
-                        <li><img src="images/evo%201.jpeg"></li>
-                        <li><img src="images/evo%201.jpeg"></li>
-                    </ul>
-                </div> -->
               <div class="carousel-contain">
                 <div class="owl-carousel">
                   <li><img src="images/evo%201.jpeg"></li>
                   <li><img src="images/evo%201.jpeg"></li>
                   <li><img src="images/evo%201.jpeg"></li>
                   <li><img src="images/evo%201.jpeg"></li>
-                  <li><img src="images/evo%201.jpeg"></li>
+                  <!-- <figure class="img-contain">
+                    <img src="images/artists/Cyrcle.jpg">
+                  </figure>
+                  <figure class="img-contain">
+                    <img src="images/artists/Casey_Weldon.jpg">
+                  </figure>
+                  <figure class="img-contain">
+                    <img src="images/artists/Mary_Iverson.jpg">
+                  </figure>
+                  <figure class="img-contain">
+                    <img src="images/artists/Syd_Bee.jpg">
+                  </figure>
+                  <figure class="img-contain">
+                    <img src="images/artists/Weirdo.jpg">
+                  </figure> -->
                 </div>
               </div>
             </section>
@@ -165,7 +183,7 @@
                     <img src="images/sodo_track_logo_nav-crop.png" alt="footer logo">
                   </figure>
                   <p class="copy-wrap">
-                    Lorem asdfasdfasipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel augue ac mi tempus 
+                    Lorem asdfasdfasipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel augue ac mi tempus
                   </p>
                   <div id="copyright">
                     <p>The SODO Track. 2016. Made in love in Seattle.</p>
@@ -199,27 +217,25 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+        <script src="scripts/basic.js"></script>
         <!-- <script src="unslider-master/src/js/unslider.js"></script> -->
         <script>
-            $(function() {
-                // $('#myslider').unslider({
-                //   nav: false,
-                //   arrows: false,
-                //   autoplay: true,
-                //   infinite: true
-                // });
-                $('.owl-carousel').owlCarousel({
-                  loop: true,
-                  dots: false,
-                  autoplay: true,
-                  center: true,
-                  autoplayTimeout: 700,
-                  stagePadding: 10,
-                  margin: 20,
-                  items: 1.3
-                  }
-                );
-            });
+            // $(function() {
+            //   $('.owl-carousel').owlCarousel({
+            //     loop: true,
+            //     dots: false,
+            //     autoplay: true,
+            //     center: true,
+            //     autoplayTimeout: 700,
+            //     stagePadding: 10,
+            //     margin: 20,
+            //     items: 1.3,
+            //     }
+            //   );
+            //   $('#hamburger').on ('click', function() {
+            //     $('#nav-contain-test').slideToggle();
+            //   });
+            // });
         </script>
     </body>
 </html>
