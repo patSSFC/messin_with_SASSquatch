@@ -70,7 +70,7 @@ h1, h2, h3 {
 .button {
     display: inline-block;
     width: 180px;
-    margin: 0 10px;
+    margin: 10px;
     padding: 15px 30px;
     border: 1px solid #7FCAAD;
     border-radius: 2px;
@@ -170,9 +170,8 @@ nav {
 }
 
 #hero-wrap img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
+    /*display: block;
+    text-align: center;*/
     opacity: .8;
 }
 
@@ -230,11 +229,12 @@ nav {
 
 #logo-wrap img {
     width: 100%;
+    text-align: left;
 }
 
-#logo-wrap #track {
+/*#logo-wrap #track {
     width: 29%;
-}
+}*/
 
 #sub-logo-copy {
     font-family: 'Lusitana', 'Lato', sans-serif;
@@ -353,12 +353,26 @@ nav {
 
 #left {
   float: left;
-  width: 45%;
+  width: 40%;
+  margin-left: 7%;
 }
 
 #right {
   float: right;
-  width: 45%;
+  width: 40%;
+  margin-right: 7%;
+}
+
+#left > * {
+  float: left;
+}
+
+#right > * {
+  float: right;
+}
+
+#left figure, #right figure{
+  width: 10%;
 }
 
 /*******************************/
@@ -477,10 +491,10 @@ table {
     width: 18%;
   }
 
-  #logo-sodo-wrap {
+  /*#logo-sodo-wrap {
     width: 25%;
     padding-top: 5px;
-  }
+  }*/
 
   #right-contain {
     width: 70%;
@@ -491,6 +505,7 @@ table {
   }
 
   table {
+    width: 70%;
     border-spacing: 0;
   }
 
@@ -504,7 +519,7 @@ table {
     margin-bottom: 10px;
     font-size: 120%;
   }
-    
+
   #contact-form a.button {
     width: 100%;
   }
@@ -516,21 +531,39 @@ table {
   }
 }
 
+@media only screen and (max-width: 840px) {
+  #left, #right {
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #left > *, #right > * {
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #left figure, #right figure {
+
+  }
+}
+
 @media only screen and (max-width: 820px) {
     #left-contain, #right-contain {
         width: 100%;
         text-align: center;
     }
-    
+
     #left-contain figure {
         margin: 0 auto;
     }
-    
+
     #left-contain .copy-wrap {
         margin-top: 10px;
         text-align: inherit;
     }
-    
+
     #right-contain ul {
         float: none;
         text-align: inherit;
@@ -554,13 +587,18 @@ table {
     width: 65%;
   }
 
+  #hero-wrap {
+    width: 45%;
+  }
+
   @media only screen and (max-width: 700px) {
+
     .copy-wrap {
       width: 80%;
     }
 
-    #logo-sodo-wrap {
-      width: 30%;
+    #logo-wrap {
+      width: 70%;
     }
   }
 }
