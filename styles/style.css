@@ -136,7 +136,7 @@ nav {
 #pop-up-nav {
   position: absolute;
   z-index: 1;
-  top: 0px;
+  top: 65px;
   left: 0;
   width: 100%;
   height: 100vh;
@@ -608,7 +608,7 @@ table {
     display: none;
   }
 
-  #hamburger {
+  .hamburger {
     display: block;
   }
 

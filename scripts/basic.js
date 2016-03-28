@@ -10,7 +10,7 @@ $(function() {
     items: 1.3,
     }
   );
-  $('#hamburger').on ('click', function() {
-    $('#nav-contain-test').slideToggle();
-  });
+  // $('#hamburger').on ('click', function() {
+  //   $('#nav-contain-test').slideToggle();
+  // });
 });
