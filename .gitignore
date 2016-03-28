@@ -1,1 +1,9 @@
-unslider-master
+*.esproj
+.DS_Store
+.codekit-cache
+node_modules
+images/sprites
+unslider-master/
+images/artists/Syd_Bee.jpg
+images/artists/Weirdo.jpg
+images/artists/Casey_Weldon.jpg

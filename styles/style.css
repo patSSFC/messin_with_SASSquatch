@@ -6,13 +6,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', 'Helvetica', 'Tahoma', sans-serif;
-<<<<<<< HEAD
     font-size: 16px;
-=======
-    font-size: 15px;
     font-weight: 400;
     color: #9BA5BD;
->>>>>>> partners
     background-color: #F9FAFD;
     box-sizing: border-box;
 }
@@ -54,15 +50,11 @@ h1, h2, h3 {
 }
 
 .copy-wrap {
-<<<<<<< HEAD
-    width: 45%;
+    color: #676b79;
+    width: 60%;
     font-size: 110%;
-=======
-    width: 46%;
-    font-size: 100%;
     font-weight: 300;
     color: #676b79;
->>>>>>> partners
     margin: 0 auto;
     line-height: 1.5em;
     word-spacing: 2px;
@@ -72,14 +64,16 @@ h1, h2, h3 {
 .sub-header h3{
     font-weight: 100;
     font-size: 150%;
+    color: #92CEB7;
 }
 
 .button {
     display: inline-block;
+    width: 180px;
+    margin: 10px;
     padding: 15px 30px;
     border: 1px solid #7FCAAD;
     border-radius: 2px;
-    margin: 0 10px;
     text-decoration: none;
     font-size: 120%;
 }
@@ -99,11 +93,7 @@ h1, h2, h3 {
 
 #head-wrap {
     margin: 0 auto;
-<<<<<<< HEAD
-    height: 80px;
-=======
-    height: 62px;
->>>>>>> partners
+    /*height: 80px;*/
     background-color: #fff;
     border-bottom: 1px #e1e5f0 solid;
 }
@@ -114,74 +104,60 @@ header {
     max-width: 1140px;
     font-size: 80%;
     margin: 0 auto;
-    padding-top: 10px;
+    padding: 10px 0;
 }
 
 /*************SODO Logo************/
 
 #logo-sodo-wrap {
     float: left;
-<<<<<<< HEAD
-    margin: 5px 1.25% 0 1.25%;
-    width: 45%;
-=======
-    width: 15%;
-    margin-top: 5px;
-    /*margin-left: 70px;*/
->>>>>>> partners
+    width: 20%;
+    margin-left: 15px;
 }
 
 #logo-sodo-wrap img {
-    /*width: 45%;*/
-    /*width: 50%;*/
+    width: 200px;
 }
-
 
 /*************NAV************/
 
 nav {
-    width: 40%;
+    width: 50%;
     float: right;
-    margin: 0 1.25% 0 1.25%;
+    margin-right: 3%;
+}
+
+#responsive-nav {
+  padding: 10px 0;
+  font-size: 80%;
 }
 
 #nav-list {
     width: 100%;
-    height: 100%;
-    margin: 2px auto;
-    position: relative;
-<<<<<<< HEAD
-    padding-top: 15px;
-=======
->>>>>>> partners
+    margin: 0 auto;
 }
 
 #nav-list li {
     display: inline-block;
-<<<<<<< HEAD
+    width: 20%;
     height: 100%;
-    margin: 0 2%;
-    padding: 5px 15px;
-    color: lightgrey;
-    text-align: right;
-    float: left;
-=======
-    width: 18%;
     margin: 0 1%;
+    list-style: none;
     color: #9BA5BD;
     text-align: center;
->>>>>>> partners
-    list-style: none;
 }
 
 #nav-list li:last-child {
-    text-align: center;
-<<<<<<< HEAD
-=======
-    padding: 10px 25px;
->>>>>>> partners
+    padding: 10px 20px;
     color: #fff;
     background-color: #7FCAAD;
+}
+
+#hamburger {
+  display: none;
+  float: right;
+  margin: .2% 2% 0 0;
+  font-size: 320%;
 }
 
 /*******************************/
@@ -190,17 +166,12 @@ nav {
 
 #hero-wrap {
     width: 30%;
+    margin: 0 auto;
 }
 
 #hero-wrap img {
-    display: block;
-<<<<<<< HEAD
-    margin: 0 auto;
-    width: 30%;
-=======
-    margin: 30px auto;
-    width: 100%;
->>>>>>> partners
+    /*display: block;
+    text-align: center;*/
     opacity: .8;
 }
 
@@ -258,9 +229,10 @@ nav {
 
 #logo-wrap img {
     width: 100%;
+    text-align: left;
 }
 
-#logo-wrap #track {
+/*#logo-wrap #track {
     width: 29%;
 }*/
 
@@ -284,12 +256,13 @@ nav {
 }
 
 #abstract img {
+  width: 30%;
   height: auto;
   margin-right: 50px;
   position: relative;
 }
 
-#abstract img:nth-of-type(1) {
+/*#abstract img:nth-of-type(1) {
   width: 30%;
 }
 
@@ -300,7 +273,7 @@ nav {
 
 #abstract img:nth-of-type(3) {
   width: 15%;
-}
+}*/
 
 
 .sub-header span {
@@ -309,9 +282,9 @@ nav {
     font-weight: 700;
 }
 
-#what .copy-wrap, #who .copy-wrap {
+/*#what .copy-wrap, #who .copy-wrap {
     width: 60%;
-}
+}*/
 
 .button-wrap {
     margin-top: 30px;
@@ -332,6 +305,10 @@ nav {
   width: 100%;
 }*/
 
+#who {
+
+}
+
 .carousel-contain {
   width: 100%;
 }
@@ -339,7 +316,18 @@ nav {
 .owl-carousel {
   width: 100%;
   margin: 25px auto;
+  padding: 0 !important;
+  list-style-type: none;
 }
+
+.owl-carousel figure {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*.owl-caroursel .owl-item img {
+  height: 100%;
+}*/
 
 /*******************************/
 /**************SCHEDULE*********/
@@ -359,18 +347,32 @@ nav {
 #col-wrap li {
   display: block;
   padding: 5px;
-  marign-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 
 #left {
   float: left;
-  width: 45%;
+  width: 40%;
+  margin-left: 7%;
 }
 
 #right {
   float: right;
-  width: 45%;
+  width: 40%;
+  margin-right: 7%;
+}
+
+#left > * {
+  float: left;
+}
+
+#right > * {
+  float: right;
+}
+
+#left figure, #right figure{
+  width: 10%;
 }
 
 /*******************************/
@@ -383,20 +385,25 @@ table {
   border-spacing: 0 20px;
 }
 
-#contact-form #row1 input {
-  width: 90%;
+#row1 input {
+  width: 89%;
   height: 50px;
 }
 
-#contact-form #row2 input {
+#row2 input {
   height: 50px;
   width: 95%;
 }
 
+#contact .button {
+  width: auto;
+}
+
 #contact-form input {
-  padding-left: 20px;
+  padding-left: 5px;
   font-size: 150%;
   font-weight: 100;
+  border: 1px solid lightgrey;
 }
 
 #contact-form input:focus {
@@ -407,18 +414,17 @@ table {
 /**************FOOTER***********/
 /*******************************/
 
-<<<<<<< HEAD
 #left-contain {
   width: 30%;
-=======
+}
+
 #footer {
-  background: #6C7A89;
+  background: #9BA5BD;
 }
 
 #left-contain {
   width: 30%;
   float: left;
->>>>>>> partners
 }
 
 #left-contain figure {
@@ -430,13 +436,7 @@ table {
 }
 
 #left-contain .copy-wrap {
-<<<<<<< HEAD
   font-size: 60%;
-  width: 100%;
-  text-align: left;
-}
-=======
-  font-size: 70%;
   width: 100%;
   text-align: left;
 }
@@ -460,9 +460,145 @@ table {
 
 #right-contain li {
   padding-bottom: 10px;
+  color: #858CA0;
 }
 
 #copyright {
   font-size: 50%;
 }
->>>>>>> partners
+
+
+/*******************************/
+/**************MEDIA Qs*********/
+/*******************************/
+
+@media only screen and (max-width: 860px) {
+
+  .row {
+    width: 98%;
+    margin: 0 1%;
+  }
+
+  nav {
+    width: 55%;
+  }
+
+  #nav-contain-test {
+    width: 100%;
+  }
+
+  #nav-contain-test li {
+    width: 18%;
+  }
+
+  /*#logo-sodo-wrap {
+    width: 25%;
+    padding-top: 5px;
+  }*/
+
+  #right-contain {
+    width: 70%;
+  }
+
+  .button-wrap {
+    margin-top: 20px;
+  }
+
+  table {
+    width: 70%;
+    border-spacing: 0;
+  }
+
+  #row1 td {
+    display: block;
+  }
+
+  #row1 input, #row2 input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 120%;
+  }
+
+  #contact-form a.button {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 781px) {
+  #responsive-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  #left, #right {
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #left > *, #right > * {
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #left figure, #right figure {
+
+  }
+}
+
+@media only screen and (max-width: 820px) {
+    #left-contain, #right-contain {
+        width: 100%;
+        text-align: center;
+    }
+
+    #left-contain figure {
+        margin: 0 auto;
+    }
+
+    #left-contain .copy-wrap {
+        margin-top: 10px;
+        text-align: inherit;
+    }
+
+    #right-contain ul {
+        float: none;
+        text-align: inherit;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+
+  header {
+    padding: 10px 0 0 0;
+  }
+  #nav-contain {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
+  .copy-wrap {
+    width: 65%;
+  }
+
+  #hero-wrap {
+    width: 45%;
+  }
+
+  @media only screen and (max-width: 700px) {
+
+    .copy-wrap {
+      width: 80%;
+    }
+
+    #logo-wrap {
+      width: 70%;
+    }
+  }
+}
