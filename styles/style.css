@@ -474,7 +474,8 @@ table {
 }
 
 #left-contain figure {
-  width: 50%;
+  width: 200px;
+  marign: 10px 0;
 }
 
 #left-contain img {
