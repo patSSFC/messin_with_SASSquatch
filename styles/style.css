@@ -88,6 +88,11 @@ h1, h2, h3 {
     color: #7FCAAD;
 }
 
+.no-click {
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
 /*******************************/
 /*************HEADER************/
 /*******************************/
@@ -134,12 +139,13 @@ nav {
 }*/
 
 #pop-up-nav {
+  display: none;
   position: absolute;
   z-index: 1;
   top: 65px;
   left: 0;
   width: 100%;
-  height: 100vh;
+  /*height: 100vh;*/
   background-color: #F9FAFD;
   font-size: 150%;
 }
@@ -582,7 +588,7 @@ table {
 }
 
 @media only screen and (min-width: 781px) {
-  #responsive-nav {
+  #pop-up-nav {
     display: none;
   }
 }
@@ -672,7 +678,7 @@ table {
   @media only screen and (max-width: 620px) {
 
     #right-contain {
-      width: 80%;
+      width: 100%;
       float: none;
       margin: 0 auto;
     }
