@@ -623,9 +623,11 @@ table {
 
     #right-contain ul {
         float: none;
+
         width: 30%;
         padding: 0;
-        text-align: inherit;
+
+        text-align: center;
     }
 }
 
@@ -667,7 +669,28 @@ table {
     }
   }
 
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 620px) {
 
+    #right-contain {
+      width: 80%;
+      float: none;
+      margin: 0 auto;
+    }
+
+    #right-contain ul {
+      width: 100%;
+      padding: 0;
+    }
+
+    #right-contain ul:before {
+      display: block;
+      height: 2px;
+      /* background-color: #e67e22; */
+      border-bottom: 2px solid #7FCAAD;
+      content: "";
+      width: 200px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
   }
 }
