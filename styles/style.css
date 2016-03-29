@@ -41,6 +41,10 @@ section {
     border-bottom: 1px solid grey;
 }
 
+section:nth-child(even) {
+  background-color: #fff;
+}
+
 h1, h2, h3 {
     text-align: center;
 }
@@ -130,7 +134,7 @@ header {
 nav {
     width: 50%;
     float: right;
-    margin-right: 3%;
+    margin-right: 40px;
 }
 
 /*#responsive-nav {
@@ -280,9 +284,9 @@ nav {
 /**************WHAT*************/
 /*******************************/
 
-#what {
+/*#what {
     background-color: #fff;
-}
+}*/
 
 #abstract {
     width: 100%;
@@ -293,8 +297,10 @@ nav {
 #abstract img {
   width: 30%;
   height: auto;
+  /*
+  height: auto;
   margin-right: 50px;
-  position: relative;
+  position: relative;*/
 }
 
 /*#abstract img:nth-of-type(1) {
@@ -387,6 +393,14 @@ nav {
 
 #col-wrap > div {
   width: 40%;
+}
+
+#col-wrap figure.year {
+  display: block;
+  float: none;
+  width: 110px;
+  margin: 40px auto 0 auto;
+  text-align: center;
 }
 
 #col-wrap span {
@@ -659,8 +673,17 @@ table {
     width: 45%;
   }
 
-  #col-wrap figure {
+  #col-wrap figure.arrow {
     display: none;
+  }
+
+  #col-wrap figure.year {
+    width: 80px;
+    margin-top: 20px;
+  }
+
+  #left li, #right li {
+    margin-bottom: 50px;
   }
 
 }
@@ -698,6 +721,18 @@ table {
       width: 200px;
       margin: 0 auto;
       margin-bottom: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    #col-wrap > div {
+      float: none;
+      width: 100%;
+      margin: 0;
+    }
+
+    #left > ul, #right > ul {
+      width: 100%;
     }
   }
 }
