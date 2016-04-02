@@ -115,7 +115,9 @@ header {
     max-width: 1140px;
     font-size: 80%;
     margin: 0 auto;
-    padding: 12px 0;
+    padding: 10px 0;
+    width: 90%;
+    max-width: 1140px;
 }
 
 /*************SODO Logo************/
@@ -134,6 +136,8 @@ header {
 
 nav {
     float: right;
+    width: 60%;
+    text-align: right;
 }
 
 /*#responsive-nav {
@@ -174,20 +178,22 @@ nav {
     width: 100%;
     margin: 0 auto;
     padding: 0;
+
 }
 
 #nav-list li {
     display: inline-block;
     height: 100%;
-    margin: 0% 2% 0 0;
-    padding: 0 20px 0 0;
+    margin-right: 1%;
     list-style: none;
     color: #9BA5BD;
     text-align: center;
+    padding: 15px;
 }
 
 #nav-list li:last-child {
-    padding: 12px;
+    margin-right: 0;
+    padding: 12px 20px 12px 20px;
     color: #fff;
     background-color: #7FCAAD;
 }
@@ -538,10 +544,6 @@ table {
   .row {
     width: 98%;
     margin: 0 1%;
-  }
-
-  nav {
-    width: 55%;
   }
 
   #nav-contain-test {
