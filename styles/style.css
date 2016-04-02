@@ -74,13 +74,14 @@ h1, h2, h3 {
 
 .button {
     display: inline-block;
-    width: 180px;
-    margin: 10px;
-    padding: 15px 30px;
+    width: 144px;
+    margin: 20px;
+    padding: 20px 25px;
     border: 1px solid #7FCAAD;
     border-radius: 2px;
     text-decoration: none;
-    font-size: 120%;
+    font-weight: 300;
+    font-size: 100%;
 }
 
 .full {
@@ -114,7 +115,7 @@ header {
     max-width: 1140px;
     font-size: 80%;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 12px 0;
 }
 
 /*************SODO Logo************/
@@ -132,9 +133,7 @@ header {
 /*************NAV************/
 
 nav {
-    width: 50%;
     float: right;
-    margin-right: 40px;
 }
 
 /*#responsive-nav {
@@ -174,20 +173,21 @@ nav {
 #nav-list {
     width: 100%;
     margin: 0 auto;
+    padding: 0;
 }
 
 #nav-list li {
     display: inline-block;
-    width: 20%;
     height: 100%;
-    margin: 0 1%;
+    margin: 0% 2% 0 0;
+    padding: 0 20px 0 0;
     list-style: none;
     color: #9BA5BD;
     text-align: center;
 }
 
 #nav-list li:last-child {
-    padding: 10px 20px;
+    padding: 12px;
     color: #fff;
     background-color: #7FCAAD;
 }
@@ -204,7 +204,7 @@ nav {
 /*******************************/
 
 #hero-wrap {
-    width: 30%;
+    width: 25%;
     margin: 0 auto;
 }
 
@@ -222,15 +222,15 @@ nav {
     width: 200px;
     height: 45px;
     text-align: center;
-    border: 1px solid grey;
-    border-radius: 25px;
+    border: 1px solid #c6cbd4;
+    border-radius: 50px;
 }
 
 #enter-wrap a:link, #enter-wrap a:visited {
     display: inline-block;
     margin-top: 12px;
     text-decoration: none;
-    color: black;
+    color: ##5f6880;
     width: 80%;
     font-size: 14px;
     -webkit-transition: color .2s;
@@ -239,7 +239,7 @@ nav {
 
 #enter-wrap a:hover, #enter-wrap a:active {
     text-decoration: none;
-    color: aquamarine;
+    color: #7ec9ac;
 }
 
 #play-contain {
@@ -247,7 +247,7 @@ nav {
     width: 25px;
     height: 25px;
     margin-left: 5px;
-    margin-top: 8px;
+    margin-top: 10px;
     background-image: url(../images/play-button-sprite-inactive.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -261,13 +261,12 @@ nav {
 /***************SODO TRACK LOGO************/
 
 #logo-wrap {
-    width: 50%;
+    width: 40%;
     margin: 20px auto 0 auto;
     text-align: center;
 }
 
 #logo-wrap img {
-    width: 100%;
     text-align: left;
 }
 
@@ -276,8 +275,9 @@ nav {
 }*/
 
 #sub-logo-copy {
-    font-family: 'Lusitana', 'Lato', sans-serif;
-    margin-top: 20px;
+    color: #5f6880;
+    margin-top: 10px;
+    font-size: 90%;
 }
 
 /*******************************/
@@ -474,7 +474,7 @@ table {
 /*******************************/
 
 #footer {
-  background: #9BA5BD;
+  background: #676b70;
 }
 
 #footer-inner-wrap {
@@ -655,7 +655,7 @@ table {
 @media only screen and (max-width: 780px) {
 
   header {
-    padding: 10px 0 0 0;
+    padding: 12px 0 0 0;
   }
   #nav-contain {
     display: none;
@@ -670,6 +670,7 @@ table {
   }
 
   #hero-wrap {
+    margin-top: 30px;
     width: 45%;
   }
 
