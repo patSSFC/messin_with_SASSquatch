@@ -4,10 +4,12 @@ $(function() {
     dots: false,
     autoplay: true,
     center: true,
-    autoplayTimeout: 700,
-    stagePadding: 10,
-    margin: 20,
-    items: 1.3,
+    autoplayTimeout: 1000,
+    // stagePadding: 20,
+    // margin: 0,
+    autoWidth: true,
+    autoHeight: true,
+    items: 1.2
     }
   );
   // $('#hamburger').on ('click', function() {
