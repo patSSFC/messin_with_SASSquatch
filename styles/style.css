@@ -343,18 +343,6 @@ nav {
 /**************WHO**************/
 /*******************************/
 
-/*#myslider {
-  width: 65%;
-  margin: 25px auto;
-}
-
-#myslider li img {
-  width: 100%;
-}*/
-#who {
-
-}
-
 .carousel-contain {
   width: 100%;
 }
@@ -367,8 +355,15 @@ nav {
 }
 
 .owl-carousel figure {
-  /*width: 45%;*/
+  height: 50%;
   margin: 0 auto;
+  /*object-fit: cover;*/
+  /*width: 100%;*/
+}
+
+.owl-carousel .owl-item img {
+  /*width: auto;*/
+  object-fit: contain;
 }
 
 /*.owl-caroursel .owl-item img {

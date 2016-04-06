@@ -5,11 +5,11 @@ $(function() {
     autoplay: true,
     center: true,
     autoplayTimeout: 1000,
-    // stagePadding: 20,
-    // margin: 0,
+    // // stagePadding: 20,
+    // // margin: 0,
     autoWidth: true,
-    autoHeight: true,
-    items: 1.2
+    // autoHeight: true,
+    items: 1,
     }
   );
   // $('#hamburger').on ('click', function() {
