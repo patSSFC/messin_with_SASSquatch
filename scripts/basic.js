@@ -7,7 +7,7 @@ $(function() {
     autoplayTimeout: 1000,
     // // stagePadding: 20,
     // // margin: 0,
-    autoWidth: true,
+    // autoWidth: true,
     // autoHeight: true,
     items: 1,
     }

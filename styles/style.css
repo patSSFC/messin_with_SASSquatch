@@ -423,14 +423,18 @@ nav {
 }
 
 .owl-carousel figure {
-  height: 50%;
-  margin: 0 auto;
+  max-height: 1000px;
+  max-width: 100%;
+  /*width: auto;*/
   /*object-fit: cover;*/
   /*width: 100%;*/
 }
 
 .owl-carousel .owl-item img {
-  /*width: auto;*/
+  display: block;
+  /*width: 100%;*/
+  margin: 0 auto;
+  /*text-align: center;*/
   object-fit: contain;
 }
 
