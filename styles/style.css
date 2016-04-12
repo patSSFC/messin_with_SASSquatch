@@ -426,27 +426,21 @@ figure.img-contain {
   /*
   *This method works at max-height but is not very responsive when i shrink its width.
   */
-  max-height: 70%;
-  max-width: 70%;
+  height: 400px;
+  /*width: 70%;*/
   margin: 0 auto;
   /*width: 70%;*/
   /*padding-bottom: 75%;*/
-}
-
-#wide {
-  padding-bottom: 56.25%;
-}
-
-#four-three {
-  padding-bottom: 75%;
 }
 
 .owl-carousel .owl-item img {
   /*
   *This method works at max-height but is not very responsive when i shrink its width.*/
   max-height: 100%;
-  max-width: 100%;
   width: auto;
+  /*max-width: 100%;*/
+  /*height: auto;
+  width: auto;*/
   /*position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;*/
 

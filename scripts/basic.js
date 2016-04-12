@@ -1,15 +1,15 @@
 $(function() {
   $('.owl-carousel').owlCarousel({
     loop: true,
-    dots: false,
+    dots: true,
     autoplay: true,
     center: true,
-    autoplayTimeout: 1000,
+    autoplayTimeout: 3000,
     // // stagePadding: 20,
     // // margin: 0,
-    // autoWidth: true,
-    // autoHeight: true,
-    items: 1,
+    autoWidth: true,
+    autoHeight: true,
+    //items: 1,
     }
   );
   // $('#hamburger').on ('click', function() {
