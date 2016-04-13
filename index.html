@@ -13,6 +13,12 @@
 
     <link type="text/css" rel="stylesheet" href="styles/style.css">
     <link type="text/css" rel="stylesheet" href="styles/queries.css">
+    <script type="text/javascript">
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+      analytics.load("g19XlVNvz1HjlLOKlnIdVcAxK7IGjFcX");
+      analytics.page()
+      }}();
+    </script>
   </head>
 
   <body>
@@ -200,13 +206,12 @@
         </div>
         <div id="contact-form-wrap" class="row">
           <table id="contact-form">
-            <form method="get" action="#">
               <tr id="row1">
                 <td>
-                  <input type="text" name="fname" id="fname" placeholder="First Name">
+                  <input type="text" name="fname" id="first-name" placeholder="First Name">
                 </td>
                 <td>
-                  <input type="text" name="lname" id="lname" placeholder="Last Name">
+                  <input type="text" name="lname" id="last-name" placeholder="Last Name">
                 </td>
               </tr>
               <tr id="row2">
@@ -214,10 +219,9 @@
                   <input type="email" name="email" id="email" placeholder="Email Address">
                 </td>
               </tr>
-            </form>
           </table>
           <div class="button-wrap">
-            <a href="#" class="button full">Sign up to get our updates!</a>
+            <button id="newsletter-signup" class="button full">Sign up to get our updates!</button>
           </div>
         </div>
       </section>
@@ -268,7 +272,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
     <script src="scripts/basic.js"></script>
-    <!-- <script src="unslider-master/src/js/unslider.js"></script> -->
+      <!-- <script src="unslider-master/src/js/unslider.js"></script> -->
     <script>
      // $(function() {
      //   $('.owl-carousel').owlCarousel({
@@ -287,6 +291,19 @@
        $('#main-wrap').toggleClass('no-click');
      });
      // });
+    </script>
+
+    <script>
+      $('#newletter-signup').on ('click', function() {
+        // get first name, last name, email
+        // what am I doing if something is empty
+
+        analytics.identify('0000001', {
+          firstName: 'Omri',
+          lastName: 'Mor',
+          email: 'omri1mor@gmail.com'
+        });
+      });
     </script>
   </body>
 </html>
