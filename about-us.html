@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SODO Track</title>
+    <!-- <link rel="stylesheet" href="unslider-master/dist/css/unslider.css"> -->
+    <link rel="stylesheet" type="text/css" href="owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
+    <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="styles/about-us.css">
+    <link type="text/css" rel="stylesheet" href="styles/queries.css">
+  </head>
+
+  <body>
+    <div id="head-wrap">
+      <header class="clearfix">
+        <div id="logo-sodo-wrap">
+          <img src="images/sodo_track_logo_nav-crop.png" alt="SODO logo">
+        </div>
+        <span class="hamburger ion-navicon-round"></span>
+        <nav id="nav-contain">
+          <ul id="nav-list">
+            <li class="">About</li>
+            <li>Artists</li>
+            <li>Walls</li>
+            <li><a href="#">Apply for a wall</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="pop-up-nav">
+        <ul>
+          <li>About</li>
+          <li>Artists</li>
+          <li>Walls</li>
+          <li><a href="#">Apply for a wall</a></li>
+        </ul>
+      </div>
+
+      <section id="scope" clas="row">
+        <div id="first-text">
+          <h3>Imagine an international arts destination unlike any other in the world.</h3>
+          <p class="copy-wrap">A landscape designed to be viewed in motion, with a wide array of large scale artworks racing alongside you. You’re racing some of the region’s and the planet’s greatest creative minds. This is a bus ride where the walls you pass are so interesting that you put your phone away. A train ride that sparks your imagination.</p>
+          <img id="corridor-map" src="images/sodo_map.svg" alt="corridor-map">
+          <p class="copy-wrap">The SODO Track will transform 2-miles of building backs into a vibrant street art corridor. Local, national and international artists will be commissioned to create an imaginative raceway of art in motion for 43,000 bus and light rail riders to experience as they enter Downtown Seattle each day.</p>
+          <p class="copy-wrap"> 32 properties will be painted by over 50 artists, in two summer festival phases. Phase 1 is slated to transform the east side of the corridor - 5th Avenue South between South Royal Brougham Way and South Spokane Street – with Phase 2 covering the west side.</p>
+
+        </div>
+      </section>
+
+      <section id="footer">
+        <div id="footer-inner-wrap" class="row clearfix">
+          <div id="left-contain">
+            <figure>
+              <img src="images/sodo_track_logo_nav-crop.png" alt="footer logo">
+            </figure>
+            <p class="copy-wrap">
+              The SODO Track is a collective funded by 4Culture and the City of Seattle to paint the walls of Seattle's bus corridor.
+            </p>
+            <div id="copyright">
+              <p>The SODO Track. 2016. Made in love in Seattle.</p>
+            </div>
+          </div>
+          <div id="right-contain" class="clearfix">
+            <div class="clearfix">
+              <ul>
+                <li>SODO Track</li>
+                <li>test</li>
+                <li>test</li>
+              </ul>
+              <ul>
+                <li>Our Artists</li>
+                <li>test</li>
+                <li>test</li>
+              </ul>
+            </div>
+            <div class="clearfix">
+              <ul>
+                <li>We're Social</li>
+                <li>test</li>
+                <li>test</li>
+              </ul>
+              <ul>
+                <li>Get Involved</li>
+                <li>test</li>
+                <li>test</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+    <script src="scripts/basic.js"></script>
+    <!-- <script src="unslider-master/src/js/unslider.js"></script> -->
+    <script>
+     // $(function() {
+     //   $('.owl-carousel').owlCarousel({
+     //     loop: true,
+     //     dots: false,
+     //     autoplay: true,
+     //     center: true,
+     //     autoplayTimeout: 700,
+     //     stagePadding: 10,
+     //     margin: 20,
+     //     items: 1.3,
+     //     }
+     //   );
+     $('.hamburger').on ('click', function() {
+       $('#pop-up-nav').slideToggle();
+       $('#main-wrap').toggleClass('no-click');
+     });
+     // });
+    </script>
+  </body>
+</html>

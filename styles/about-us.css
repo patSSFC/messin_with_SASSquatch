@@ -46,7 +46,14 @@ section:nth-child(even) {
 }
 
 h1, h2, h3 {
-    text-align: center;
+  width: 48%;
+  text-align: left;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-family: "Lusitana", Helvetica, Arial;
+  line-height: 1.3em;
+  margin: 40px auto 20px auto;
+  color: #7FCAAD;
 }
 
 .row {
@@ -56,14 +63,18 @@ h1, h2, h3 {
 
 .copy-wrap {
     color: #5f6880;
-    width: 50%;
-    font-size: 85%;
+    width: 48%;
     font-weight: 300;
     color: #676b79;
     margin: 0 auto;
     line-height: 1.6em;
     word-spacing: 2px;
-    text-align: center;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.copy-wrap p {
+  font-size: 100%;
 }
 
 .sub-header h3{
@@ -152,7 +163,7 @@ nav {
   display: none;
   position: absolute;
   z-index: 1;
-  top: 60px;
+  top: 65px;
   left: 0;
   width: 100%;
   /*height: 100vh;*/
@@ -215,168 +226,32 @@ nav {
   font-size: 200%;
 }
 
-/*******************************/
-/***************SPLASH************/
-/*******************************/
 
-#hero-wrap {
-    width: 22%;
-    margin: 20px auto;
-}
+/*************SCOPE************/
 
-#hero-wrap img {
-    /*display: block;
-    text-align: center;*/
-    opacity: .8;
-}
-
-/***************ENTER************/
-
-#enter-wrap {
-    margin: 30px auto;
-    padding: 5px 10px;
-    width: 215px;
-    height: 44px;
-    text-align: center;
-    border: 1px solid #c6cbd4;
-    border-radius: 50px;
-}
-
-#enter-wrap a:link, #enter-wrap a:visited {
-    display: inline-block;
-    margin-top: 14px;
-    text-decoration: none;
-    color: ##5f6880;
-    width: 80%;
-    font-size: 85%;
-    -webkit-transition: color .2s;
-    transition: color .2s;
-}
-
-#enter-wrap:hover {
-    background: #EAEBF5;
-    text-decoration: none;
-    color: #7ec9ac;
-}
-
-#play-contain {
-    float: left;
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
-    margin-top: 10px;
-    background-image: url(../images/play-button-sprite-inactive.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    -webkit-transition: background-image, .2s;
-    transition: background-image, .2s;
-}
-
-#play-contain:hover {
-    background-image: url(../images/play-button-sprite-active.png);
-}
-/***************SODO TRACK LOGO************/
-
-#logo-wrap {
-    width: 35%;
-    margin: 20px auto 0 auto;
-    text-align: center;
-}
-
-#logo-wrap img {
-    margin: 10px 0;
-    text-align: left;
-}
-
-/*#logo-wrap #track {
-    width: 29%;
-}*/
-
-#sub-logo-copy {
-    color: #5f6880;
-    margin-top: 10px;
-    font-size: 90%;
-}
-
-/*******************************/
-/**************WHAT*************/
-/*******************************/
-
-/*#what {
-    background-color: #fff;
-}*/
-
-#abstract {
-    width: 100%;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-#summer {
-  display: block;
-  width: 30%;
-  height: auto;
-  padding: 10px 20px;
-  margin: auto;
-}
-
-#buildings {
-  width: 21%;
-  height: auto;
-  padding: 10px 20px;
-}
-
-#artists {
-  width: 16%;
-  height: auto;
-  padding: 10px 20px;
-}
-
-/*#abstract img {
-  width: 30%;
-  height: auto; */
-
-
-  /*
-  height: auto;
-  margin-right: 50px;
-  position: relative;*/
-
-/*#abstract img:nth-of-type(1) {
-  width: 30%;
-}
-
-#abstract img:nth-of-type(2) {
-  width: 20%;
-  top: 10px;
-}
-
-#abstract img:nth-of-type(3) {
-  width: 15%;
-}*/
-
-#sodo-corridor {
-  width: 80%;
-  margin: 40px auto;
-  background: #f9fafd;
-  padding: 10% 6%;
-  border: 1px solid rgba(155, 165, 189, 0.3);
+#scope {
+    display: block;
+    padding: 80px 0;
 }
 
 #corridor-map {
   display: block;
-  width: 90%;
+  width: 60%;
   margin: auto;
+  padding: 50px 0;
 }
 
-#sodo-corridor h3 {
-  font-weight: 100;
-  font-size: 100%;
-  margin-bottom: 50px;
-  color: #7FCAAD;
+#corridor-map:before {
+  display: block;
+  height: 1px;
+  border-bottom: 1px  solid rgba(155, 165, 189, 0.9);
+  content: ""; /*whenever using the after pseudo you must specify the content*/
+  width: 150px;
+  margin: auto;
+  padding: 20px 0;
 }
 
-#sodo-corridor h3:after {
+#corridor-map:after {
   display: block;
   height: 1px;
   border-bottom: 1px  solid rgba(155, 165, 189, 0.3);
@@ -412,9 +287,9 @@ nav {
     width: 100%;
 }
 
-/*******************************/
-/**************WHO**************/
-/*******************************/
+#who {
+
+}
 
 .carousel-contain {
   width: 100%;
@@ -427,143 +302,9 @@ nav {
   list-style-type: none;
 }
 
-figure.img-contain {
-  /*
-  *This method works at max-height but is not very responsive when i shrink its width.
-  */
-  height: 400px;
-  /*width: 70%;*/
+.owl-carousel figure {
+  width: 70%;
   margin: 0 auto;
-  /*width: 70%;*/
-  /*padding-bottom: 75%;*/
-}
-
-.owl-carousel .owl-item img {
-  /*
-  *This method works at max-height but is not very responsive when i shrink its width.*/
-  max-height: 100%;
-  width: auto;
-  /*max-width: 100%;*/
-  /*height: auto;
-  width: auto;*/
-  /*position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;*/
-
-}
-
-/*.owl-caroursel .owl-item img {
-  height: 100%;
-}*/
-
-/*******************************/
-/**************SCHEDULE*********/
-/*******************************/
-
-/*#col-wrap {
-  width: 90%;
-  margin: 25px auto;
-}*/
-
-#col-wrap ul{
-  list-style-type: none;
-  text-align: left;
-  padding: 0;
-}
-
-#col-wrap li {
-  display: block;
-  padding: 5px;
-  margin-bottom: 100px;
-  font-weight: 300;
-  font-size: 95%;
-}
-
-#col-wrap > div {
-  width: 43%;
-}
-
-#col-wrap figure.year {
-  display: block;
-  float: none;
-  width: 20%;
-  margin: 40px auto 20px auto;
-  text-align: center;
-}
-
-#col-wrap span {
-  color: #7FCAAD;
-  font-size: 150%;
-  padding-right: 10px;
-}
-
-#left {
-  float: left;
-  /*width: 40%;*/
-  margin-left: 7%;
-}
-
-#right {
-  float: right;
-  /*width: 40%;*/
-  margin-right: 7%;
-}
-
-#left > * {
-  float: left;
-}
-
-#right > * {
-  float: right;
-}
-
-#left figure, #right figure{
-  width: 8%;
-  margin: 20% 10.5% 0px 12.5%;
-}
-
-/*******************************/
-/**************CONTACT**********/
-/*******************************/
-
-table {
-  width: 50%;
-  margin: 20px auto;
-  border-spacing: 0 20px;
-}
-
-#row1 input {
-  width: 89%;
-  height: 50px;
-}
-
-#row2 input {
-  height: 50px;
-  width: 95%;
-}
-
-#contact .button {
-  width: 42%;
-  margin: 0 auto;
-}
-
-#contact .button-wrap {
-  margin: 0 auto;
-}
-
-#contact-form input {
-  padding-left: 10px;
-  font-size: 90%;
-  font-weight: 300;
-  color: rgba(155, 165, 180, 0.5);
-  border: 1px solid lightgrey;
-}
-
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: rgba(155, 165, 180, 0.8);
-}
-
-#contact-form input:focus {
-  outline: none;
 }
 
 /*******************************/
@@ -652,10 +393,6 @@ table {
     width: 18%;
   }
 
-  #col-wrap figure.arrow {
-    display: none;
-  }
-
   /*#logo-sodo-wrap {
     width: 25%;
     padding-top: 5px;
@@ -673,26 +410,6 @@ table {
     margin-top: 20px;
   }
 
-  table {
-    width: 70%;
-    border-spacing: 0;
-  }
-
-  #row1 td {
-    display: block;
-  }
-
-  #row1 input, #row2 input {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    font-size: 120%;
-  }
-
-  #contact-form a.button {
-    width: 100%;
-  }
-
   #footer-inner-wrap {
     padding: 0;
   }
@@ -703,14 +420,6 @@ table {
 
   #right-contain {
     margin-right: 40px;
-  }
-
-  #sodo-corridor {
-    width: 80%;
-    margin: 40px auto;
-    background: #f9fafd;
-    padding: 50px 40px;
-    border: 1px solid rgba(155, 165, 189, 0.3);
   }
 
   #left figure, #right figure {
@@ -774,6 +483,11 @@ table {
   header {
     padding: 12px 0 12px 0;
   }
+
+  h1, h2, h3 {
+    width: 65%
+  }
+
   #nav-contain {
     display: none;
   }
