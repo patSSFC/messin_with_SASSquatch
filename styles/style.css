@@ -6,11 +6,11 @@ body {
     z-index: 0;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', 'Helvetica', 'Tahoma', sans-serif;
+    font-family: 'Helvetica', 'Tahoma', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #9BA5BD;
-    background-color: #F9FAFD;
+    background-color: #f5f6fa;
     box-sizing: border-box;
 }
 
@@ -38,7 +38,7 @@ img {
 
 section {
     padding: 30px 0;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #f5f6fa;
 }
 
 section:nth-child(even) {
@@ -55,33 +55,33 @@ h1, h2, h3 {
 }
 
 .copy-wrap {
-    color: #676b79;
-    width: 60%;
-    font-size: 110%;
+    color: #5f6880;
+    width: 50%;
+    font-size: 88%;
     font-weight: 300;
     color: #676b79;
     margin: 0 auto;
-    line-height: 1.5em;
+    line-height: 1.6em;
     word-spacing: 2px;
     text-align: center;
 }
 
 .sub-header h3{
     font-weight: 100;
-    font-size: 150%;
+    font-size: 120%;
     color: #92CEB7;
 }
 
 .button {
     display: inline-block;
-    width: 144px;
-    margin: 20px;
-    padding: 20px 25px;
-    border: 1px solid #7FCAAD;
+    width: 120px;
+    margin: 6px 10px 10px 10px;
+    padding: 20px 18px;
+    border: 2px solid #7FCAAD;
     border-radius: 2px;
     text-decoration: none;
     font-weight: 300;
-    font-size: 100%;
+    font-size: 85%;
 }
 
 .full {
@@ -125,11 +125,11 @@ header {
 #logo-sodo-wrap {
     float: left;
     width: 20%;
-    margin-left: 15px;
 }
 
 #logo-sodo-wrap img {
-    width: 200px;
+    width: 160px;
+    margin-top: 8px;
 }
 
 /*************NAV************/
@@ -181,28 +181,35 @@ nav {
 
 }
 
+#nav-list li:hover {
+  color: #7FCAAD;
+}
+
 #nav-list li {
     display: inline-block;
     height: 100%;
     margin-right: 1%;
     list-style: none;
     color: #9BA5BD;
+    font-size: 95%;
+    font-weight: 300;
     text-align: center;
     padding: 15px;
 }
 
 #nav-list li:last-child {
-    margin-right: 0;
-    padding: 12px 20px 12px 20px;
-    color: #fff;
-    background-color: #7FCAAD;
+  margin-left: 10px;
+  padding: 12px 20px 12px 20px;
+  color: #fff;
+  background-color: #7FCAAD;
+  border-radius: 2px;
 }
 
 .hamburger {
   display: none;
   float: right;
-  margin: .2% 2% 0 0;
-  font-size: 320%;
+  margin: .2% 0 0 0;
+  font-size: 200%;
 }
 
 /*******************************/
@@ -210,8 +217,8 @@ nav {
 /*******************************/
 
 #hero-wrap {
-    width: 25%;
-    margin: 0 auto;
+    width: 22%;
+    margin: 20px auto;
 }
 
 #hero-wrap img {
@@ -223,10 +230,10 @@ nav {
 /***************ENTER************/
 
 #enter-wrap {
-    margin: 30px auto 0 auto;
+    margin: 30px auto;
     padding: 5px 10px;
-    width: 200px;
-    height: 45px;
+    width: 215px;
+    height: 44px;
     text-align: center;
     border: 1px solid #c6cbd4;
     border-radius: 50px;
@@ -234,16 +241,17 @@ nav {
 
 #enter-wrap a:link, #enter-wrap a:visited {
     display: inline-block;
-    margin-top: 12px;
+    margin-top: 14px;
     text-decoration: none;
     color: ##5f6880;
     width: 80%;
-    font-size: 14px;
+    font-size: 85%;
     -webkit-transition: color .2s;
     transition: color .2s;
 }
 
-#enter-wrap a:hover, #enter-wrap a:active {
+#enter-wrap:hover {
+    background: #EAEBF5;
     text-decoration: none;
     color: #7ec9ac;
 }
@@ -267,12 +275,13 @@ nav {
 /***************SODO TRACK LOGO************/
 
 #logo-wrap {
-    width: 40%;
+    width: 35%;
     margin: 20px auto 0 auto;
     text-align: center;
 }
 
 #logo-wrap img {
+    margin: 10px 0;
     text-align: left;
 }
 
@@ -300,14 +309,35 @@ nav {
     text-align: center;
 }
 
-#abstract img {
+#summer {
+  display: block;
   width: 30%;
   height: auto;
+  padding: 10px 20px;
+  margin: auto;
+}
+
+#buildings {
+  width: 21%;
+  height: auto;
+  padding: 10px 20px;
+}
+
+#artists {
+  width: 16%;
+  height: auto;
+  padding: 10px 20px;
+}
+
+/*#abstract img {
+  width: 30%;
+  height: auto; */
+
+
   /*
   height: auto;
   margin-right: 50px;
   position: relative;*/
-}
 
 /*#abstract img:nth-of-type(1) {
   width: 30%;
@@ -321,6 +351,44 @@ nav {
 #abstract img:nth-of-type(3) {
   width: 15%;
 }*/
+
+#sodo-corridor {
+  width: 80%;
+  margin: 40px auto;
+  background: #f9fafd;
+  padding: 40px 75px;
+  border: 1px solid rgba(155, 165, 189, 0.3);
+}
+
+#corridor-map {
+  display: block;
+}
+
+#sodo-corridor h3 {
+  font-weight: 100;
+  font-size: 120%;
+  margin-bottom: 40px;
+
+}
+
+#sodo-corridor h3:after {
+  display: block;
+  height: 2px;
+  border-bottom: 2px  solid rgba(155, 165, 189, 0.3);
+  content: ""; /*whenever using the after pseudo you must specify the content*/
+  width: 150px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.street {
+  display: block;
+  width: 20%;
+  margin: 15px auto;
+  color: #9CA6BF;
+  font-size: 85%;
+  font-weight: 300;
+}
 
 
 .sub-header span {
@@ -343,19 +411,6 @@ nav {
 /**************WHO**************/
 /*******************************/
 
-/*#myslider {
-  width: 65%;
-  margin: 25px auto;
-}
-
-#myslider li img {
-  width: 100%;
-}*/
-
-#who {
-
-}
-
 .carousel-contain {
   width: 100%;
 }
@@ -367,9 +422,28 @@ nav {
   list-style-type: none;
 }
 
-.owl-carousel figure {
-  width: 70%;
+figure.img-contain {
+  /*
+  *This method works at max-height but is not very responsive when i shrink its width.
+  */
+  height: 400px;
+  /*width: 70%;*/
   margin: 0 auto;
+  /*width: 70%;*/
+  /*padding-bottom: 75%;*/
+}
+
+.owl-carousel .owl-item img {
+  /*
+  *This method works at max-height but is not very responsive when i shrink its width.*/
+  max-height: 100%;
+  width: auto;
+  /*max-width: 100%;*/
+  /*height: auto;
+  width: auto;*/
+  /*position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;*/
+
 }
 
 /*.owl-caroursel .owl-item img {
@@ -669,6 +743,7 @@ table {
 
   .hamburger {
     display: block;
+    margin-top: 10px;
   }
 
   .copy-wrap {
@@ -678,6 +753,30 @@ table {
   #hero-wrap {
     margin-top: 30px;
     width: 45%;
+  }
+
+  #summer {
+    display: block;
+    width: 44%;
+    height: auto;
+    padding: 10px 20px;
+    margin: auto;
+  }
+
+  #buildings {
+    display: block;
+    width: 30%;
+    height: auto;
+    padding: 10px 20px;
+    margin: auto;
+  }
+
+  #artists {
+    display: block;
+    width: 26%;
+    height: auto;
+    padding: 10px 20px;
+    margin: auto;
   }
 
   #col-wrap figure.arrow {
@@ -707,6 +806,30 @@ table {
   }
 
   @media only screen and (max-width: 620px) {
+
+    #summer {
+      display: block;
+      width: 54%;
+      height: auto;
+      padding: 10px 20px;
+      margin: auto;
+    }
+
+    #buildings {
+      display: block;
+      width: 40%;
+      height: auto;
+      padding: 10px 20px;
+      margin: auto;
+    }
+
+    #artists {
+      display: block;
+      width: 32%;
+      height: auto;
+      padding: 10px 20px;
+      margin: auto;
+    }
 
     #right-contain {
       width: 100%;

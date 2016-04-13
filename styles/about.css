@@ -1,48 +1,11 @@
-#about-main-wrap {
-    margin: 80px auto;
-    padding: 0;
+.row {
+  max-width: 650px;
 }
 
-#image-wrap {
-    float: left;
-    margin: 0;
-    width: 60%;
+h1 {
+  text-align: left;
 }
 
-#image-wrap img {
-    width: 100%;
-}
-
-#artist-about-wrap {
-    float: right;
-    margin: 0;
-    width: 33%;
-}
-
-.artist-copy {
-    float: left;
-    width: 50%;
-}
-
-.artist-copy h2 {
-    font-family: 'Lusitana', 'Lato', sans-serif;
-    margin-top: 0;
-    text-align: left;
-}
-
-#artist-pic {
-    float: right;
-    width: 25%;
-}
-
-#artist-pic img {
-    width: 100%;
-    border-radius: 50%;
-}
-
-#artist-statement {
-    clear: both;
-    padding-top: 15px;
-    line-height: 1.5em;
-    letter-spacing: .05em;
+section {
+  border: none;
 }
