@@ -8,48 +8,50 @@
     <link type="text/css" rel="stylesheet" href="styles/about.css">
     <link type="text/css" rel="stylesheet" href="styles/queries.css">
     <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <div id="head-wrap">
-      <header>
+      <header class="clearfix">
         <div id="logo-sodo-wrap">
           <img src="images/sodo_track_logo_nav-crop.png" alt="SODO logo">
         </div>
-        <nav>
-          <ul id="nav-list" class="clearfix">
+        <span class="hamburger ion-navicon-round"></span>
+        <nav id="nav-contain">
+          <ul id="nav-list">
             <li class="">About</li>
             <li>Artists</li>
             <li>Walls</li>
-            <a href="#"><li>Apply for a wall</li></a>
+            <li><a href="#">Apply for a wall</a></li>
           </ul>
         </nav>
+        <div id="pop-up-nav">
+          <ul>
+            <li><a href="/index.html#what">About</a></li>
+            <li><a href="/index.html#who">Artists</a></li>
+            <li>Walls</li>
+            <li><a href="#">Apply for a wall</a></li>
+          </ul>
+        </div>
       </header>
+
     </div>
 
     <div id="main-wrap" class="clearfix">
-      <div id="about-main-wrap" class="clearfix row">
-        <figure id="image-wrap">
-          <img src="images/evo%201.jpeg">
-        </figure>
-        <div id="artist-about-wrap">
-          <div id="artist-about" class="clearfix">
-            <div class="artist-copy">
-              <h2>Testest</h2>
-              <p>
-                <span>Find it on 1st ave</span><br />
-                <span>Sponsored by Starsux</span>
-              </p>
-              <p>Made by 2 Chinz</p>
-            </div>
-            <div id="artist-pic">
-              <img src="images/artist_pic.jpg" alt="artist pic">
-            </div>
-            <div id="artist-statement">
-              <p>Bathe private parts with tongue then lick owner's face stare at ceiling, so sleep in the bathroom sink cats go for world domination. Under the bed when in doubt, wash eat from dog's food and refuse to leave cardboard box. Cat is love, cat is life. Human give me attention meow claw drapes, for stick butt in face, but hiss at vacuum cleaner and paw at your fat belly or stare out the window behind the couch. Always hungry refuse to drink water except out of someone's glass but paw at your fat belly. </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <section id="intro" class="row">
+        <h1>Imagine an international arts destination unlike any other in the world.</h1>
+      </section>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+    <script src="scripts/basic.js"></script>
+    <script>
+
+     $('.hamburger').on ('click', function() {
+       $('#pop-up-nav').slideToggle();
+       $('#main-wrap').toggleClass('no-click');
+     });
+     // });
+    </script>
   </body>
 </html>

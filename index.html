@@ -10,7 +10,6 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css" rel="stylesheet">
-
     <link type="text/css" rel="stylesheet" href="styles/style.css">
     <link type="text/css" rel="stylesheet" href="styles/queries.css">
     <script type="text/javascript">
@@ -21,42 +20,32 @@
     </script>
   </head>
 
-  <body>
-    <div id="head-wrap">
-      <header class="clearfix">
-        <div id="logo-sodo-wrap">
-          <img src="images/sodo_track_logo_nav-crop.png" alt="SODO logo">
-        </div>
-        <span class="hamburger ion-navicon-round"></span>
-        <nav id="nav-contain">
-          <ul id="nav-list">
-            <li class="">About</li>
-            <li>Artists</li>
-            <li>Walls</li>
-            <li><a href="#">Apply for a wall</a></li>
-          </ul>
-        </nav>
-      </header>
-      <!-- <div id="responsive-nav" class="clearfix">
-           <nav id="nav-contain-test">
-           <ul id="nav-list">
-           <li class="">About</li>
-           <li>Artists</li>
-           <li>Walls</li>
-           <li><a href="#">Apply for a wall</a></li>
-           </ul>
-           </nav>
-           </div> -->
-      <div id="pop-up-nav">
-        <ul>
-          <li>About</li>
-          <li>Artists</li>
-          <li>Walls</li>
-          <li><a href="#">Apply for a wall</a></li>
-        </ul>
-      </div>
+    <body>
+        <div id="head-wrap">
+            <header class="clearfix">
+                <div id="logo-sodo-wrap">
+                    <img src="images/sodo_track_logo_nav-crop.png" alt="SODO logo">
+                </div>
+                <span class="hamburger ion-navicon-round"></span>
+                <nav id="nav-contain">
+                    <ul id="nav-list">
+                        <li class="">About</li>
+                        <li>Artists</li>
+                        <li>Walls</li>
+                        <li><a href="#">Apply for a wall</a></li>
+                    </ul>
+                </nav>
+                <div id="pop-up-nav">
+                  <ul>
+                    <li><a href="#what">About</a></li>
+                    <li><a href="#who">Artists</a></li>
+                    <li>Walls</li>
+                    <li><a href="#">Apply for a wall</a></li>
+                  </ul>
+                </div>
+            </header>
 
-    </div>
+        </div>
 
     <div id="main-wrap">
       <section id="splash">
@@ -65,8 +54,6 @@
         </div>
         <div id="logo-wrap" class="row">
           <img src="images/sodo_track_logo_main.png" alt="SODO Track logo">
-          <!-- <img src="images/Sodo.png" alt="">
-               <img src="images/Track.png" alt=""> -->
         </div>
         <div>
           <p class="copy-wrap" id="sub-logo-copy">
@@ -82,10 +69,6 @@
         <div class="row sub-header">
           <h3>What we're building</h3>
           <div id="abstract">
-            <!-- <img src="images/sprites/summer_grey.png" alt="Summer 2016/2017">
-                 <img id="buildings" src="images/sprites-test/32-buildings-scale.png" alt="32 Buildings">
-                 <img id="artists" src="images/sprites-test/54-artists-scale.png"> -->
-
             <img id="summer" src="images/hp/summer-16-17.png" alt="Summer 2016/2017">
             <img id="buildings" src="images/hp/32-buildings.png" alt="32 Buildings">
             <img id="artists" src="images/hp/54-artists.png" alt="54 Artists">
@@ -108,39 +91,41 @@
           </figure>
           <p class="street" style="text-align:center">6th Ave S</p>
       </div>
-      </section>
+    </section>
 
-      <section id="who">
+    <section id="who">
         <div class="row sub-header">
-          <h3>Who is painting the walls</h3>
-          <p class="copy-wrap"> Our plan envisions a cohesive art experience with dozens of artists bringing a diversity of perspectives and cultural influences, as well as a multitude of personal interpretations on the themes of movement, motion, and progression.</p>
+            <h3>Who is painting the walls</h3>
+            <p class="copy-wrap">
+                Local, national, and international artists will be commissioned to create an imaginative raceway of art in motion.
+            </p>
         </div>
 
         <div class="row button-wrap">
-          <a href="#" class="button full">Meet the artists</a>
+          <a href="#" class="button full">Learn about us</a>
+          <a href="#" class="button ghost">Meet our partners</a>
         </div>
-
         <div class="carousel-contain">
           <div class="owl-carousel">
+            <!-- <li><img src="images/evo%201.jpeg"></li>
             <li><img src="images/evo%201.jpeg"></li>
             <li><img src="images/evo%201.jpeg"></li>
-            <li><img src="images/evo%201.jpeg"></li>
-            <li><img src="images/evo%201.jpeg"></li>
-            <!-- <figure class="img-contain">
-                 <img src="images/artists/Cyrcle.jpg">
-                 </figure>
-                 <figure class="img-contain">
-                 <img src="images/artists/Casey_Weldon.jpg">
-                 </figure>
-                 <figure class="img-contain">
-                 <img src="images/artists/Mary_Iverson.jpg">
-                 </figure>
-                 <figure class="img-contain">
-                 <img src="images/artists/Syd_Bee.jpg">
-                 </figure>
-                 <figure class="img-contain">
-                 <img src="images/artists/Weirdo.jpg">
-                 </figure> -->
+            <li><img src="images/evo%201.jpeg"></li> -->
+            <figure class="img-contain" id="wide">
+                <img src="images/artists/max-height-1000px/artist_carousel_cyrcle.jpg">
+            </figure>
+            <figure class="img-contain">
+              <img src="images/artists/max-height-1000px/artist_carousel_casey_weldon.jpg">
+            </figure>
+            <figure class="img-contain" id="wide">
+              <img src="images/artists/max-height-1000px/artist_carousel_mary_iverson.jpg">
+            </figure>
+            <figure class="img-contain" id="four-three">
+              <img src="images/artists/max-height-1000px/artist_carousel_weirdo.jpg">
+            </figure>
+            <figure class="img-contain">
+              <img src="images/artists/max-height-1000px/artist_carousel_syd_bee.jpg">
+            </figure>
           </div>
         </div>
       </section>
@@ -149,25 +134,28 @@
         <div class="sub-header row">
           <h3>What our schedule looks like</h3>
           <p class="copy-wrap">
-            32 properties will be painted by over 50 artists, in two summer festival phases. Phase 1 is slated to transform the east side of the corridor - 5th Ave South between South Royal Brougham Way and South Spokane Street – with Phase 2 covering the west side.
+              32 properties will be painted by over 50 artists in two summer festival phases. Phase 1 is slated to transform the east side of the corridor - 5<sup>th</sup> Avenue South between South Royal Brougham Way and South Spokane Street - with Phase 2 covering the west side
           </p>
         </div>
         <div id="col-wrap" class="row clearfix">
           <!-- TODO: Fixed margin-collapse. Ask at lab today?? -->
           <div id="left" class="clearfix">
             <figure class="year">
-              <img src="images/sprites-test/2016.svg" alt="Summer of 2016">
+              <img src="images/sprites/2016.png" alt="Summer of 2016">
             </figure>
             <ul>
               <li>
                 <span class="ion-checkmark-circled"></span>
-                Really long event name #1
+                Inventory properties lining corridor
               </li>
               <li><span class="ion-checkmark-circled"></span>
-                Really long event name #2
+                Create project theme
               </li>
               <li><span class="ion-checkmark-circled"></span>
-                Really long event name #3
+                Select curating artists
+              </li>
+              <li><span class="ion-checkmark-circled"></span>
+                Paint (Phase 1)!
               </li>
             </ul>
             <figure class="arrow">
@@ -176,18 +164,21 @@
           </div>
           <div id="right" class="clearfix">
             <figure class="year">
-              <img src="images/sprites-test/2017.svg" alt="Summer of 2017">
+              <img src="images/sprites/2017.png" alt="Summer of 2017">
             </figure>
             <ul>
               <li>
                 <span class="ion-checkmark-circled"></span>
-                Really long event name #1
+                Open call selection panel
               </li>
               <li><span class="ion-checkmark-circled"></span>
-                Really long event name #2
+                Complete fundraising
               </li>
               <li><span class="ion-checkmark-circled"></span>
-                Really long event name #3
+                Artist and property placement
+              </li>
+              <li><span class="ion-checkmark-circled"></span>
+                Paint (Phase 2)!
               </li>
             </ul>
             <figure class="arrow">
@@ -225,6 +216,7 @@
           </div>
         </div>
       </section>
+
 
       <section id="footer">
         <div id="footer-inner-wrap" class="row clearfix">
@@ -266,26 +258,12 @@
             </div>
           </div>
         </div>
-      </section>
+    </section>
 
-    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
     <script src="scripts/basic.js"></script>
-      <!-- <script src="unslider-master/src/js/unslider.js"></script> -->
     <script>
-     // $(function() {
-     //   $('.owl-carousel').owlCarousel({
-     //     loop: true,
-     //     dots: false,
-     //     autoplay: true,
-     //     center: true,
-     //     autoplayTimeout: 700,
-     //     stagePadding: 10,
-     //     margin: 20,
-     //     items: 1.3,
-     //     }
-     //   );
      $('.hamburger').on ('click', function() {
        $('#pop-up-nav').slideToggle();
        $('#main-wrap').toggleClass('no-click');
