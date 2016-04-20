@@ -1,0 +1,41 @@
+.row {
+  max-width: 1140px;
+}
+
+section {
+  border: none;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.artist-contain {
+  /*display: flex;
+  flex-direction: row;
+  justify-content: space-between;*/
+}
+
+.example-contain {
+  float: left;
+  width: 60%;
+  margin: 0 20px 0 0;
+}
+
+.bio-contain {
+  float: left;
+  width: 35%;
+}
+
+.bio-contain > * {
+  float: left;
+}
+
+.bio-pic {
+  width: 100px;
+}
+
+.copy-wrap {
+  width: 100%;
+  text-align: left;
+}
