@@ -20,6 +20,7 @@ h2 {
   width: 65%;
   height: 500px;
   margin: 0 2em 0 0;
+  text-align: center;
 }
 
 .example-contain img {
@@ -50,6 +51,10 @@ h2 {
   margin: 0;
 }
 
+.bio-pic img {
+  border-radius: 50%;
+}
+
 .copy-wrap {
   clear: both;
   display: inline-block;
@@ -61,20 +66,40 @@ h2 {
 }
 
 @media only screen and (max-width: 855px) {
-  .bio-contain {
-    display: block;
-    width: 80%;
-  }
-
   .artist-contain * {
     float: none;
   }
 
   .example-contain {
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
   }
 
   .example-contain:not(.fourthree) {
     height: auto;
   }
+
+  .bio-pic {
+
+  }
+
+  .bio-contain {
+    display: block;
+    width: 80%;
+  }
+
+  .bio-contain {
+    margin: 0 auto;
+  }
+
+  .bio-contain h2 {
+    width: 100%;
+    /*margin: 1em 0;*/
+  }
+
+  .bio-contain > * {
+    margin: 1em auto;
+  }
+
 }
