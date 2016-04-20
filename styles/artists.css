@@ -11,9 +11,7 @@ h2 {
 }
 
 .artist-contain {
-  /*display: flex;
-  flex-direction: row;
-  justify-content: space-between;*/
+  margin-bottom: 5em;
 }
 
 .example-contain {
