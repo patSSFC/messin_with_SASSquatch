@@ -80,10 +80,6 @@ h2 {
     height: auto;
   }
 
-  .bio-pic {
-
-  }
-
   .bio-contain {
     display: block;
     width: 80%;
@@ -102,4 +98,20 @@ h2 {
     margin: 1em auto;
   }
 
+}
+
+@media only screen and (max-width: 520px) {
+
+  .example-contain {
+    height: auto;
+  }
+  .fourthree img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .bio-contain {
+    width: 98%;
+  }
 }
