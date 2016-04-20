@@ -11,12 +11,13 @@ h2 {
 }
 
 .artist-contain {
-  margin-bottom: 5em;
+  width: 95%;
+  margin: 0 auto 3em auto;
 }
 
 .example-contain {
   float: left;
-  width: 750px;
+  width: 65%;
   height: 500px;
   margin: 0 2em 0 0;
 }
@@ -57,4 +58,23 @@ h2 {
   padding-top: 2em;
   text-align: left;
   border-top: 1px solid #7FCAAD;
+}
+
+@media only screen and (max-width: 855px) {
+  .bio-contain {
+    display: block;
+    width: 80%;
+  }
+
+  .artist-contain * {
+    float: none;
+  }
+
+  .example-contain {
+    margin: 0 auto;
+  }
+
+  .example-contain:not(.fourthree) {
+    height: auto;
+  }
 }
