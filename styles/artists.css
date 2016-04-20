@@ -65,7 +65,7 @@ h2 {
   border-top: 1px solid #7FCAAD;
 }
 
-@media only screen and (max-width: 855px) {
+@media only screen and (max-width: 861px) {
   .artist-contain * {
     float: none;
   }
