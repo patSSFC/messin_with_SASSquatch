@@ -203,8 +203,8 @@
 		loop: false,
 		center: false,
 
-		mouseDrag: true,
-		touchDrag: true,
+		mouseDrag: false,
+		touchDrag: false,
 		pullDrag: true,
 		freeDrag: false,
 
@@ -2483,9 +2483,9 @@
 	 * @public
 	 */
 	Autoplay.Defaults = {
-		autoplay: false,
+		autoplay: true,
 		autoplayTimeout: 5000,
-		autoplayHoverPause: false,
+		autoplayHoverPause: true,
 		autoplaySpeed: false
 	};
 
@@ -2698,7 +2698,7 @@
 	 * @todo Rename `slideBy` to `navBy`
 	 */
 	Navigation.Defaults = {
-		nav: false,
+		nav: true,
 		navRewind: true,
 		navText: [ 'prev', 'next' ],
 		navSpeed: false,
@@ -2713,7 +2713,7 @@
 		dotsEach: false,
 		dotData: false,
 		dotsSpeed: false,
-		dotsContainer: false,
+		dotsContainer: true,
 		controlsClass: 'owl-controls'
 	}
 

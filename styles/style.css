@@ -55,11 +55,10 @@ h1, h2, h3 {
 }
 
 .copy-wrap {
-    color: #5f6880;
+    color: #9098AD;
     width: 50%;
     font-size: 90%;
     font-weight: 300;
-    color: #676b79;
     margin: 0 auto;
     margin-bottom: 10px;
     line-height: 1.5em;
@@ -92,8 +91,19 @@ h1, h2, h3 {
     color: #fff;
 }
 
+.full:hover {
+  background-color: #5AB592;
+  border: 2px solid #5AB592;
+}
+
 .ghost {
     color: #7FCAAD;
+}
+
+.ghost:hover {
+  color: #5AB592;
+  background-color: #EFFFF9;
+  border: 2px solid #5AB592;
 }
 
 .no-click {
@@ -427,11 +437,20 @@ nav {
   list-style-type: none;
 }
 
+.name-tag {
+  position: absolute;
+  top: 200px;
+  padding: 20px;
+  background: red;
+}
+
 figure.img-contain {
   /*
   *This method works at max-height but is not very responsive when i shrink its width.
   */
+  position: relative;;
   height: 400px;
+  border-radius: 4px;
   /*width: 70%;*/
   margin: 0 auto;
   /*width: 70%;*/
@@ -545,6 +564,49 @@ figure.img-contain {
 /**************CONTACT**********/
 /*******************************/
 
+#contact-form-wrap {
+  width: 50%;
+  margin: 20px auto;
+}
+
+input {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.input-wrapper {
+  margin-bottom: 4%;
+}
+
+.input-wrapper input{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f9fafd;
+}
+
+.input-wrapper.short {
+  width: 48.2%;
+  display: inline-block;
+}
+
+#first-name-wrapper {
+  margin-right: 2.5%;
+}
+
+#contact-form-wrap input:focus {
+  outline: none;
+  border: 1px solid #7FCAAD;
+  background: #F1FFF9;
+}
+
 table {
   width: 50%;
   margin: 20px auto;
@@ -552,7 +614,7 @@ table {
 }
 
 #row1 input {
-  width: 89%;
+  width: 90%;
   height: 50px;
 }
 
@@ -562,7 +624,7 @@ table {
 }
 
 #contact .button {
-  width: 42%;
+  width: 100%;
   margin: 0 auto;
 }
 
