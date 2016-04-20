@@ -18,24 +18,45 @@ h2 {
 
 .example-contain {
   float: left;
-  width: 60%;
-  margin: 0 20px 0 0;
+  width: 750px;
+  height: 500px;
+  margin: 0 2em 0 0;
+}
+
+.example-contain img {
+  max-height: 100%;
+  width: 100%;
+}
+
+.fourthree {
+  width: 65%;
+}
+
+.fourthree img {
+  width: auto;
 }
 
 .bio-contain {
   float: left;
-  width: 35%;
+  width: 30%;
 }
 
-.bio-contain > * {
+.bio-contain h2 {
   float: left;
 }
 
 .bio-pic {
+  float: right;
   width: 100px;
+  margin: 0;
 }
 
 .copy-wrap {
+  clear: both;
+  display: inline-block;
   width: 100%;
+  margin-top: 2em;
+  padding-top: 2em;
   text-align: left;
+  border-top: 1px solid #7FCAAD;
 }
