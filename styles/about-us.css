@@ -333,6 +333,19 @@ p.bio {
   width: 48%;
 }
 
+/*************THEME************/
+
+#theme {
+    display: block;
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+.rider_logo {
+  width: 48%;
+  margin: auto;
+}
+
 /*******************************/
 /**************FOOTER***********/
 /*******************************/
@@ -584,6 +597,29 @@ p.bio {
       width: 100%;
       margin: auto;
     }
+
+    #right-contain {
+      width: 100%;
+      float: none;
+      margin: 0 auto;
+    }
+
+    #right-contain ul {
+      width: 100%;
+      padding: 0;
+    }
+
+    #right-contain ul:before {
+      display: block;
+      height: 2px;
+      /* background-color: #e67e22; */
+      border-bottom: 1px solid #35353E;
+      content: "";
+      width: 200px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
   }
 
   @media only screen and (max-width: 580px) {
