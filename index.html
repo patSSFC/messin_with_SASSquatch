@@ -242,6 +242,11 @@
         </div>
       </section>
 
+      <section id="more-info">
+        <div class="sub-header row">
+          <h3>Want to get in touch? Contact Brennan.Jernigan@4culture.org</h3>
+      </section>
+
       <section id="footer">
         <div id="footer-inner-wrap" class="row clearfix">
           <div id="left-contain">
@@ -338,26 +343,9 @@
           return;
         }
 
-        $("#confirmation-modal").show();
-          return first_name;
-          console.log("Thanks for signing up, " + first_name);
-
         //debugger;
 
-        // var confirmation_modal = false;
-        // tells user that their inputs have been collected
-
-
-        // else {
-        //   confirmation_modal === true;
-        //   $('#confirmation-modal').text("Thanks much! We'll be sending you an email soon").show();
-        //   return;
-        // }
-
-        // window.alert("I am an alert box!");
-
-
-        return;
+        // return;
 
         analytics.identify({
           firstName: first_name,
@@ -365,8 +353,13 @@
           email: email,
         }, function() {
           // success here
-
+          $("#confirmation-modal").show();
+            return first_name;
+            console.log("Thanks for signing up, " + first_name);
         });
+
+        return;
+
       });
     </script>
   </body>
