@@ -662,6 +662,11 @@ input.error {
   border: 2px solid #5AB592;
 }
 
+#contact-form-wrap button:focus {
+  outline: none;
+  border: 2px solid #219C6C;
+}
+
 #errors {
   display: none;
   font-size: 85%;
@@ -669,7 +674,7 @@ input.error {
 }
 
 #confirmation-modal {
-  /* display: none; */
+  display: none;
   /*width: 50%;
   height: 25%;
   position: absolute;
@@ -678,10 +683,27 @@ input.error {
   margin: auto;
   /*margin-left: -30%;
   margin-top: -20%;*/
-  padding: 10px;
-  background: #7FCAAD;
+  padding: 6% 10%;
+  background: #BEECDA;
+  border: 1px solid #7FCAAD;
   border-radius: 2px;
   /* vertical-align: middle; */
+  text-align: center;
+}
+
+#confirmation-modal .confirm-icon {
+  width: 18px;
+  height: 18px;
+  padding: 6px;
+  background: #7FCAAD;
+  border-radius: 200px;
+  vertical-align: middle;
+}
+
+#confirmation-modal p {
+  font-size: 85%;
+  margin: 10px auto 0 auto;
+  color: #43AF85;
   text-align: center;
 }
 
