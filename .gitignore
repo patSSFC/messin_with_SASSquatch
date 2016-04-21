@@ -7,5 +7,10 @@ unslider-master/
 images/artists/Syd_Bee.jpg
 images/artists/Weirdo.jpg
 images/artists/Casey_Weldon.jpg
+<<<<<<< HEAD
 scripts/responsive-nav.min.js
 styles/responsive-nav.css
+=======
+styles/responsive-nav.css
+scripts/responsive-nav.min.js
+>>>>>>> master
