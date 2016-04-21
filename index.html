@@ -5,13 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SODO Track</title>
-    <!-- <link rel="stylesheet" href="unslider-master/dist/css/unslider.css"> -->
     <link rel="stylesheet" type="text/css" href="owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css" rel="stylesheet">
+    <!-- <link type="text/css" rel="stylesheet" href="styles/index.css"> -->
     <link type="text/css" rel="stylesheet" href="styles/style.css">
     <link type="text/css" rel="stylesheet" href="styles/queries.css">
+    <!-- <link type="text/css" rel="stylesheet" href="styles/index.css"> -->
+    <!-- <link rel="stylesheet" href="styles/responsive-nav.css"> -->
+    <!-- <script src="scripts/responsive-nav.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.11/slideout.js"></script> -->
     <script type="text/javascript">
       !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
       analytics.load("g19XlVNvz1HjlLOKlnIdVcAxK7IGjFcX");
@@ -21,33 +25,35 @@
   </head>
 
     <body>
-        <div id="head-wrap">
+        <div class="head-wrap">
             <header class="clearfix">
-                <div id="logo-sodo-wrap">
-                    <img src="images/sodo_track_logo_nav-crop.png" alt="SODO logo">
-                </div>
-                <span class="hamburger ion-navicon-round"></span>
-                <nav id="nav-contain">
-                    <ul id="nav-list">
-                        <li class="">About</li>
-                        <li>Artists</li>
-                        <li>Walls</li>
-                        <li><a href="#">Apply for a wall</a></li>
-                    </ul>
-                </nav>
-                <div id="pop-up-nav">
-                  <ul>
-                    <li><a href="#what">About</a></li>
-                    <li><a href="#who">Artists</a></li>
-                    <li>Walls</li>
-                    <li><a href="#">Apply for a wall</a></li>
-                  </ul>
-                </div>
+              <div id="logo-sodo-wrap">
+                <img src="images/sodo_track_logo_nav-crop.png" alt="SODO logo">
+              </div>
+              <span class="hamburger ion-navicon-round"></span>
+              <nav class="nav-contain">
+                <ul class="nav-list">
+                  <li class="">About</li>
+                  <li><a href="#who">Artists</a></li>
+                  <li>Walls</li>
+                  <li><a href="#">Apply for a wall</a></li>
+                </ul>
+              </nav>
             </header>
-
+        <div class="head-wrap" id="res">
+          <header class="clearfix">
+            <nav class="nav-contain">
+              <ul class="nav-list">
+                <li class="">About</li>
+                <li><a href="#who">Artists</a></li>
+                <li>Walls</li>
+                <li><a href="#">Apply for a wall</a></li>
+              </ul>
+            </nav>
+          </header>
         </div>
-
-    <div id="main-wrap">
+        </div>
+<div id="main-wrap">
       <section id="splash">
         <div id="hero-wrap" class="row">
           <img src="images/sodo_track_horse_crop.png" alt="SODO Track Logo">
@@ -102,15 +108,11 @@
         </div>
 
         <div class="row button-wrap">
-          <a href="#" class="button full">Learn about us</a>
+          <a href="artists.html" class="button full">Learn about us</a>
           <a href="#" class="button ghost">Meet our partners</a>
         </div>
         <div class="carousel-contain">
           <div class="owl-carousel">
-            <!-- <li><img src="images/evo%201.jpeg"></li>
-            <li><img src="images/evo%201.jpeg"></li>
-            <li><img src="images/evo%201.jpeg"></li>
-            <li><img src="images/evo%201.jpeg"></li> -->
             <figure class="img-contain" id="wide">
                 <img src="images/artists/max-height-1000px/artist_carousel_cyrcle.jpg">
             </figure>
@@ -138,7 +140,6 @@
           </p>
         </div>
         <div id="col-wrap" class="row clearfix">
-          <!-- TODO: Fixed margin-collapse. Ask at lab today?? -->
           <div id="left" class="clearfix">
             <figure class="year">
               <img src="images/sprites/2016.png" alt="Summer of 2016">
@@ -259,17 +260,11 @@
           </div>
         </div>
     </section>
+  </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
     <script src="scripts/basic.js"></script>
-    <script>
-     $('.hamburger').on ('click', function() {
-       $('#pop-up-nav').slideToggle();
-       $('#main-wrap').toggleClass('no-click');
-     });
-     // });
-    </script>
 
     <script>
       $('#newletter-signup').on ('click', function() {
