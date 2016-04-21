@@ -221,24 +221,6 @@
             Sign up to get news about new artists joining the Sodo Track, new walls being painted, events and of course our festival!
           </p>
         </div>
-        <!--
-        <div id="contact-form-wrap" class="row">
-          <table id="contact-form">
-              <tr id="row1">
-                <td>
-                  <input type="text" name="fname" id="first-name" placeholder="First Name">
-                </td>
-                <td>
-                  <input type="text" name="lname" id="last-name" placeholder="Last Name">
-                </td>
-              </tr>
-              <tr id="row2">
-                <td colspan="2">
-                  <input type="email" name="email" id="email" placeholder="Email Address">
-                </td>
-              </tr>
-          </table>
-        -->
           <div id="contact-form-wrap" class="row">
             <div class="input-wrapper short" id="first-name-wrapper">
               <input type="text" id="first-name" placeholder="First Name">
@@ -247,12 +229,13 @@
               <input type="text" id="last-name" placeholder="Last Name">
             </div>
             <div class="input-wrapper" id="email-wrapper">
-              <input type="email" id="email" placeholder="Email Address Name">
+              <input type="email" id="email" placeholder="Email Address">
             </div>
             <div id="errors"></div>
           <div class="button-wrap">
             <button id="newsletter-signup" class="button full">Sign up to get our updates!</button>
           </div>
+          <div id="confirmation-modal">Thanks for signing up!</div>
         </div>
       </section>
 
@@ -337,8 +320,7 @@
           $("#email").addClass("error");
         }
 
-        if (input_error)
-        {
+        if (input_error) {
           $("#errors").text("All inputs are required").show();
           return;
         }
@@ -346,13 +328,29 @@
         var invalid_email = false;
         // check email is valid
 
-        if (invalid_email)
-        {
+        if (invalid_email) {
           $("#errors").text("Invalid email").show();
           return;
         }
 
+        $("#confirmation-modal").show();
+          return first_name;
+          console.log("Thanks for signing up, " + first_name);
+
         //debugger;
+
+        // var confirmation_modal = false;
+        // tells user that their inputs have been collected
+
+
+        // else {
+        //   confirmation_modal === true;
+        //   $('#confirmation-modal').text("Thanks much! We'll be sending you an email soon").show();
+        //   return;
+        // }
+
+        // window.alert("I am an alert box!");
+
 
         return;
 
@@ -362,6 +360,7 @@
           email: email,
         }, function() {
           // success here
+
         });
       });
     </script>

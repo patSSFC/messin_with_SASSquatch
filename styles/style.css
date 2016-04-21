@@ -597,6 +597,10 @@ figure.img-contain {
 /**************CONTACT**********/
 /*******************************/
 
+#contact {
+  position: relative;
+}
+
 #contact-form-wrap {
   width: 40%;
   margin: 40px auto 20px auto;
@@ -614,7 +618,7 @@ input {
 }
 
 input.error {
-  border-color: red;
+  border-color: #FF2F34;
 }
 
 .input-wrapper {
@@ -626,7 +630,7 @@ input.error {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #f9fafd;
+  background-color: #ffffff;
 }
 
 .input-wrapper.short {
@@ -644,48 +648,42 @@ input.error {
   background: #F1FFF9;
 }
 
+#contact-form-wrap .button-wrap {
+  margin: 20px auto;
+}
+
 #contact-form-wrap button {
   width: 100%;
   margin: auto;
 }
 
+#contact-form-wrap button:hover {
+  background-color: #5AB592;
+  border: 2px solid #5AB592;
+}
+
 #errors {
   display: none;
-  color: red;
+  font-size: 85%;
+  color: #FF2F34;
 }
 
-/*table {
-  width: 50%;
-  margin: 20px auto;
-  border-spacing: 0 20px;
+#confirmation-modal {
+  /* display: none; */
+  /*width: 50%;
+  height: 25%;
+  position: absolute;
+  left: 50%;
+  top: 50%;*/
+  margin: auto;
+  /*margin-left: -30%;
+  margin-top: -20%;*/
+  padding: 10px;
+  background: #7FCAAD;
+  border-radius: 2px;
+  /* vertical-align: middle; */
+  text-align: center;
 }
-
-#row1 input {
-  width: 90%;
-  height: 50px;
-}
-
-#row2 input {
-  height: 50px;
-  width: 95%;
-}
-
-#contact .button {
-  width: 100%;
-  margin: 0 auto;
-}
-
-#contact .button-wrap {
-  margin: 0 auto;
-}
-
-#contact-form input {
-  padding-left: 10px;
-  font-size: 90%;
-  font-weight: 300;
-  color: rgba(155, 165, 180, 0.5);
-  border: 1px solid lightgrey;
-}*/
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color: rgba(155, 165, 180, 0.8);
@@ -802,26 +800,6 @@ input.error {
     width: 70%;
   }*/
 
-  table {
-    width: 70%;
-    border-spacing: 0;
-  }
-
-  #row1 td {
-    display: block;
-  }
-
-  #row1 input, #row2 input {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    font-size: 120%;
-  }
-
-  #contact-form a.button {
-    width: 100%;
-  }
-
   #footer-inner-wrap {
     padding: 0;
   }
@@ -838,6 +816,10 @@ input.error {
     width: 80%;
     margin: 40px auto;
     padding: 50px 40px;
+  }
+
+  #contact-form-wrap {
+    width: 50%;
   }
 
   #left figure, #right figure {
@@ -863,6 +845,9 @@ input.error {
     text-align: center;
   }
 
+  #contact-form-wrap {
+    width: 75%;
+  }
 
   /*#left figure, #right figure {
     display: none;
@@ -1055,6 +1040,10 @@ input.error {
       border: 1px solid lightgrey;
     }*/
 
+    #contact-form-wrap {
+      width: 85%;
+    }
+
     #right-contain {
       width: 100%;
       float: none;
@@ -1099,10 +1088,6 @@ input.error {
     }
     #left li, #right li {
       width: 65%;
-    }
-
-    #contact-form-wrap {
-      width: 75%;
     }
 
   }
