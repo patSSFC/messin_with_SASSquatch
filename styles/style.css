@@ -656,13 +656,13 @@ table {
     margin: 0 1%;
   }
 
-  #nav-contain-test {
+  /*#nav-contain-test {
     width: 100%;
   }
 
   #nav-contain-test li {
     width: 18%;
-  }
+  }*/
 
   #col-wrap figure.arrow {
     display: none;
@@ -779,11 +779,11 @@ table {
         text-align: center;
     }
 }
-/*@media only screen and (min-width: 779px) {
+@media only screen and (min-width: 779px) {
   #res {
     display: none;
   }
-}*/
+}
 @media only screen and (max-width: 780px) {
 
   header {
@@ -856,6 +856,22 @@ table {
 
     #logo-wrap {
       width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 635px) {
+    nav {
+        float: right;
+        /*width: 60%;*/
+        text-align: center;
+    }
+
+    .head-wrap {
+      height: auto;
+    }
+
+    .nav-list li {
+      display: block;
     }
   }
 
