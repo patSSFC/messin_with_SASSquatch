@@ -474,6 +474,10 @@ nav {
 /**************WHO**************/
 /*******************************/
 
+#who .button {
+  width: auto;
+}
+
 .carousel-contain {
   width: 100%;
 }
