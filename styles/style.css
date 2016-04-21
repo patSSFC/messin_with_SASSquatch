@@ -96,6 +96,11 @@ h1, h2, h3 {
   border: 2px solid #5AB592;
 }
 
+.full:focus {
+  outline: none;
+  border: 2px solid #219C6C;
+}
+
 .ghost {
     color: #7FCAAD;
 }
@@ -431,12 +436,24 @@ nav {
 }
 
 #sodo-corridor button {
+  cursor: default;
   display: block;
   margin: 40px auto 0 auto;
   width: 69.5%;
   background: #7FCAAD;
   border: 2px solid #7FCAAD;
 }
+
+#sodo-corridor button:hover {
+    background-color: #5AB592;
+    border: 2px solid #5AB592;
+}
+
+#sodo-corridor button:focus {
+    outline: none;
+    border: 2px solid #219C6C;
+}
+
 
 #sodo-corridor button img {
   width: 18px;
@@ -724,7 +741,7 @@ input.error {
 }
 
 #footer-inner-wrap {
-  padding: 0 5%;
+  padding-bottom: 5%;
 }
 
 #left-contain {
@@ -768,17 +785,23 @@ input.error {
   font-size: 85%;
   font-weight: 300;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 #right-contain li {
   padding-bottom: 10px;
-  font-size: 85%;
+  font-size: 75%;
   font-weight: 300;
   color: #CBCED6;
 }
 
-#copyright {
-  font-size: 50%;
+#copyright p {
+  margin-top: 20px;
+  font-size: 60%;
+}
+
+#right-contain li.link {
+  color: #7FCAAD;
 }
 
 
@@ -822,9 +845,9 @@ input.error {
     width: 70%;
   }*/
 
-  #footer-inner-wrap {
+  /*#footer-inner-wrap {
     padding: 0;
-  }
+  }*/
 
   #left-contain {
     margin-left: 40px;
@@ -1092,7 +1115,7 @@ input.error {
   @media only screen and (max-width: 580px) {
 
     #sodo-corridor button {
-      width: 80%;
+      width: 95%;
     }
 
     #col-wrap > div {

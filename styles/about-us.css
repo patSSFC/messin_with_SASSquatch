@@ -45,7 +45,7 @@ section:nth-child(even) {
   background-color: #fff;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   width: 48%;
   text-align: left;
   font-size: 1.7em;
@@ -74,7 +74,7 @@ h1, h2, h3 {
 }
 
 .copy-wrap p {
-  font-size: 100%;
+  font-size: 92.5%;
 }
 
 .sub-header h3{
@@ -261,50 +261,76 @@ nav {
   margin-top: 20px;
 }
 
-.street {
-  display: block;
-  width: 20%;
-  margin: 15px auto;
-  color: #9CA6BF;
-  font-size: 85%;
+/*************ABOUT************/
+
+#about {
+    display: block;
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+#principles h4 {
+  font-size: 1em;
   font-weight: 300;
+  font-family: "Lusitana", Helvetica, Arial;
+  line-height: 1.3em;
+  margin: 40px auto 20px auto;
+  color: #9AA3BD;
 }
 
-
-.sub-header span {
-    display: inline-block;
-    margin-right: 30px;
-    font-weight: 700;
-}
-
-/*#what .copy-wrap, #who .copy-wrap {
-    width: 60%;
-}*/
-
-.button-wrap {
-    margin-top: 30px;
-    text-align: center;
-    width: 100%;
-}
-
-#who {
+#principles ul {
+  list-style: none;
+  width: 48%;
+  margin: auto;
+  padding: 0;
 
 }
 
-.carousel-contain {
-  width: 100%;
+#principles h5 {
+  width: 48%;
+  text-align: left;
+  font-size: 0.75em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 1.4em;
+  color: #7FCAAD;
+  margin: 40px 0 0 0;
 }
 
-.owl-carousel {
-  width: 100%;
-  margin: 25px auto;
-  padding: 0 !important;
-  list-style-type: none;
+#principles p {
+  text-align: left;
+  font-size: 0.85em;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #9AA3BD;
+  margin-top: 10px;
 }
 
-.owl-carousel figure {
-  width: 70%;
-  margin: 0 auto;
+/*************TEAM************/
+
+#team {
+    display: block;
+    padding: 80px 0;
+    background: #f9fafd;
+}
+
+#team img {
+  display: block;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+p.name {
+  color: #7FCAAD;
+  margin: 30px auto 5px auto;
+  padding: 0;
+}
+
+p.bio {
+  width: 48%;
 }
 
 /*******************************/
@@ -485,7 +511,7 @@ nav {
   }
 
   h1, h2, h3 {
-    width: 65%
+    width: 80%
   }
 
   #nav-contain {
@@ -498,51 +524,28 @@ nav {
   }
 
   .copy-wrap {
-    width: 65%;
+    width: 80%;
   }
 
-  #hero-wrap {
-    margin-top: 30px;
-    width: 45%;
+  #principles h4 {
+    width: 80%;
   }
 
-  #summer {
-    display: block;
-    width: 44%;
-    height: auto;
-    padding: 10px 20px;
-    margin: auto;
+  #principles ul {
+    width: 80%;
+
   }
 
-  #buildings {
-    display: block;
-    width: 30%;
-    height: auto;
-    padding: 10px 20px;
-    margin: auto;
+  #principles h5 {
+    width: 80%;
   }
 
-  #artists {
-    display: block;
-    width: 26%;
-    height: auto;
-    padding: 10px 20px;
-    margin: auto;
+  #team img {
+    width: 80%;
   }
 
-  #col-wrap figure.arrow {
-    display: none;
-  }
-
-  #col-wrap figure.year {
-    width: 20%;
-    margin: 30px auto 10px auto;
-  }
-
-  #left li, #right li {
-    margin-bottom: 30px;
-    font-weight: 300;
-    font-size: 95%;
+  p.bio {
+    width: 80%;
   }
 
 }
@@ -550,6 +553,10 @@ nav {
   @media only screen and (max-width: 700px) {
 
     .copy-wrap {
+      width: 80%;
+    }
+
+    #principles p {
       width: 80%;
     }
 
@@ -572,86 +579,10 @@ nav {
       font-size: 85%;
     }
 
-    #summer {
-      display: block;
-      width: 54%;
-      height: auto;
-      padding: 10px 20px;
-      margin: auto;
-    }
-
-    #buildings {
-      display: block;
-      width: 40%;
-      height: auto;
-      padding: 10px 20px;
-      margin: auto;
-    }
-
-    #artists {
-      display: block;
-      width: 32%;
-      height: auto;
-      padding: 10px 20px;
-      margin: auto;
-    }
-
-    #sodo-corridor {
-    width: 80%;
-    margin: 40px auto 20px auto;
-    background: #f9fafd;
-    padding: 30px 20px;
-    border: 1px solid rgba(155, 165, 189, 0.3);
-    }
-
     #corridor-map {
       display: block;
       width: 100%;
       margin: auto;
-    }
-
-    #sodo-corridor h3 {
-    font-size: 100%;
-    line-height: 1.4em;
-    }
-
-    .street {
-    display: block;
-    width: 24%;
-    margin: 15px auto;
-    color: #9CA6BF;
-    font-size: 80%;
-    font-weight: 300;
-    }
-
-    #contact-form input {
-      font-size: 16px;
-      padding-left: 10px;
-      font-weight: 300;
-      color: rgba(155, 165, 180, 0.5);
-      border: 1px solid lightgrey;
-    }
-
-    #right-contain {
-      width: 100%;
-      float: none;
-      margin: 0 auto;
-    }
-
-    #right-contain ul {
-      width: 100%;
-      padding: 0;
-    }
-
-    #right-contain ul:before {
-      display: block;
-      height: 2px;
-      /* background-color: #e67e22; */
-      border-bottom: 1px solid #35353E;
-      content: "";
-      width: 200px;
-      margin: 0 auto;
-      margin-bottom: 20px;
     }
   }
 
