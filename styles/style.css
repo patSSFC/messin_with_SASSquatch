@@ -105,7 +105,7 @@ h1, h2, h3 {
 /*************HEADER************/
 /*******************************/
 
-#head-wrap {
+.head-wrap {
     margin: 0 auto;
     height: 65px;
     background-color: #fff;
@@ -180,18 +180,27 @@ nav {
   background-color: #7FCAAD;
 }
 
-#nav-list {
+#res {
+  /*display: none;*/
+}
+
+#res .nav-contain {
+  display: block;
+  float: none;
+  margin: 0 auto;
+}
+
+.nav-list {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-
 }
 
-#nav-list li:hover {
+.nav-list li:hover {
   color: #7FCAAD;
 }
 
-#nav-list li {
+.nav-list li {
     display: inline-block;
     height: 100%;
     margin-right: 1%;
@@ -203,7 +212,7 @@ nav {
     padding: 15px;
 }
 
-#nav-list li:last-child {
+.nav-list li:last-child {
   margin-left: 10px;
   padding: 12px 20px 12px 20px;
   color: #fff;
@@ -734,7 +743,6 @@ table {
   }
 
   #left > *, #right > * {
-    /*float: none;*/
     display: inline-block;
     text-align: center;
   }
@@ -771,13 +779,17 @@ table {
         text-align: center;
     }
 }
-
+/*@media only screen and (min-width: 779px) {
+  #res {
+    display: none;
+  }
+}*/
 @media only screen and (max-width: 780px) {
 
   header {
     padding: 12px 0 12px 0;
   }
-  #nav-contain {
+  .nav-contain {
     display: none;
   }
 

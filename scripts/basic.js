@@ -12,7 +12,7 @@ $(function() {
     //items: 1,
     }
   );
-  // $('#hamburger').on ('click', function() {
-  //   $('#nav-contain-test').slideToggle();
-  // });
+  $('.hamburger').on ('click', function() {
+    $('#res').slideToggle();
+  });
 });
