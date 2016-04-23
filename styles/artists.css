@@ -10,6 +10,10 @@ h2 {
   margin-top: 0;
 }
 
+#artists-contain {
+  margin-top: 4em;
+}
+
 .artist-contain {
   width: 95%;
   margin: 0 auto 3em auto;

@@ -199,7 +199,7 @@ nav {
   /*display: none;*/
 }
 
-#res .nav-contain {
+.res .nav-contain {
   display: block;
   float: none;
   margin: 0 auto;
@@ -952,7 +952,7 @@ input.error {
     }
 }
 @media only screen and (min-width: 779px) {
-  #res {
+  .res {
     display: none;
   }
 }
