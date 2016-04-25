@@ -49,6 +49,15 @@ h2 {
   float: left;
 }
 
+.bio-contain .artist-link:link, .artist-link:visited {
+  transition: color .2s;
+}
+
+.bio-contain .artist-link:hover, .artist-link:active {
+  color: #7FCAAD;
+  /*transition: color .2s;*/
+}
+
 .bio-pic {
   float: right;
   width: 100px;
@@ -66,7 +75,14 @@ h2 {
   margin-top: 2em;
   padding-top: 2em;
   text-align: left;
+}
+
+.border {
   border-top: 1px solid #7FCAAD;
+}
+
+.nested {
+  padding-top: 0;
 }
 
 @media only screen and (max-width: 861px) {
