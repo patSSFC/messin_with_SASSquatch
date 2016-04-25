@@ -443,16 +443,49 @@ nav {
     width: 100%;
 }
 
-#sodo-corridor button {
+/*#sodo-corridor button a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}*/
+
+#sodo-corridor a.button {
   cursor: default;
   display: block;
   margin: 40px auto 0 auto;
   width: 69.5%;
   background: #7FCAAD;
   border: 2px solid #7FCAAD;
+  text-align: center;
 }
 
-#sodo-corridor button:hover {
+#sodo-corridor a.button img {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin: -3px 5px;
+}
+
+#sodo-corridor a.button:hover {
+    background-color: #5AB592;
+    border: 2px solid #5AB592;
+}
+
+#sodo-corridor a.button:focus {
+    outline: none;
+    border: 2px solid #219C6C;
+}
+
+/*#sodo-corridor button {
+  cursor: default;
+  display: block;
+  margin: 40px auto 0 auto;
+  width: 69.5%;
+  background: #7FCAAD;
+  border: 2px solid #7FCAAD;
+}*/
+
+/*#sodo-corridor button:hover {
     background-color: #5AB592;
     border: 2px solid #5AB592;
 }
@@ -460,15 +493,15 @@ nav {
 #sodo-corridor button:focus {
     outline: none;
     border: 2px solid #219C6C;
-}
+}*/
 
 
-#sodo-corridor button img {
+/*#sodo-corridor button img {
   width: 18px;
   height: 18px;
   display: inline-block;
   margin: -3px 5px;
-}
+}*/
 
 /*******************************/
 /**************WHO**************/
@@ -1160,9 +1193,9 @@ input.error {
 
   @media only screen and (max-width: 580px) {
 
-    #sodo-corridor button {
+    /*#sodo-corridor a.button {
       width: 95%;
-    }
+    }*/
 
     #col-wrap > div {
       float: none;
@@ -1194,8 +1227,8 @@ input.error {
       width: 75%;
     }
 
-    #sodo-corridor button {
+    /*#sodo-corridor a.button {
       width: 97.5%;
-    }
+    }*/
   }
 }
