@@ -1,5 +1,5 @@
 .row {
-  max-width: 1140px;
+  max-width: 960px;
 }
 
 section {
@@ -59,23 +59,24 @@ h2 {
 }
 
 .bio-pic {
-  float: right;
+  display: block;
   width: 100px;
   margin: 0;
 }
 
 .bio-pic img {
   border-radius: 50%;
+  margin: 0 auto;
 }
 
-.copy-wrap {
+/*.copy-wrap {
   clear: both;
   display: inline-block;
   width: 100%;
   margin-top: 2em;
   padding-top: 2em;
   text-align: left;
-}
+}*/
 
 .border {
   border-top: 1px solid #7FCAAD;
@@ -84,6 +85,95 @@ h2 {
 .nested {
   padding-top: 0;
 }
+
+/****** Omri Additions*****/
+
+h1, h2, h3, h4 {
+  display: block;
+  width: 48%;
+  text-align: left;
+  font-size: 1.7em;
+  font-weight: 300;
+  font-family: "Lusitana", Helvetica, Arial;
+  line-height: 1.3em;
+  margin: 40px auto 20px auto;
+  color: #7FCAAD;
+}
+
+.copy-wrap {
+    color: #5f6880;
+    width: 48%;
+    font-weight: 300;
+    color: #676b79;
+    margin: 0 auto;
+    line-height: 1.6em;
+    word-spacing: 2px;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.copy-wrap p {
+  font-size: 92.5%;
+}
+
+.sub-header h3{
+    font-weight: 100;
+    font-size: 120%;
+    color: #92CEB7;
+    line-height: 1.4em;
+    width: 80%;
+    margin: 30px auto;
+}
+
+/*************CYRCLE************/
+
+#cyrcle {
+    display: block;
+    padding: 80px 0;
+    background: #f9fafd;
+}
+
+#cyrcle img {
+  display: block;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+p.name {
+  color: #7FCAAD;
+  margin: 30px auto 5px auto;
+  padding: 0;
+}
+
+/*************WELDON************/
+
+#weldon {
+    display: block;
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+#weldon img {
+  display: block;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+p.name {
+  color: #7FCAAD;
+  margin: 30px auto 5px auto;
+  padding: 0;
+}
+
+
+/*******************************/
+/**************MEDIA Qs*********/
+/*******************************/
+
 
 @media only screen and (max-width: 861px) {
   .artist-contain * {
