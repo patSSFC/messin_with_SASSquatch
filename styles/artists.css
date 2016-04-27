@@ -131,6 +131,7 @@ h1, h2, h3, h4 {
     display: block;
     padding: 80px 0;
     background: #f9fafd;
+    border-bottom: 1px solid #f0f3f9;
 }
 
 #cyrcle img {
@@ -153,9 +154,150 @@ p.name {
     display: block;
     padding: 80px 0;
     background: #ffffff;
+    border-bottom: 1px solid #f0f3f9;
 }
 
 #weldon img {
+  display: block;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+p.name {
+  color: #7FCAAD;
+  margin: 30px auto 5px auto;
+  padding: 0;
+}
+
+/*************D*FACE************/
+
+#d-face {
+    display: block;
+    padding: 80px 0;
+    background: #f9fafd;
+    border-bottom: 1px solid #f0f3f9;
+}
+
+#d-face img {
+  display: block;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+p.name {
+  color: #7FCAAD;
+  margin: 30px auto 5px auto;
+  padding: 0;
+}
+
+/*************KEYES************/
+
+#josh-keyes {
+    display: block;
+    padding: 80px 0;
+    background: #ffffff;
+    border-bottom: 1px solid #f0f3f9;
+}
+
+#josh-keyes img {
+  display: block;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 2px;
+  border: 1px solid #f0f3f9;
+}
+
+p.name {
+  color: #7FCAAD;
+  margin: 30px auto 5px auto;
+  padding: 0;
+}
+
+/*************WEIRDO************/
+
+#weirdo {
+    display: block;
+    padding: 80px 0;
+    background: #f9fafd;
+    border-bottom: 1px solid #f0f3f9;
+}
+
+#weirdo img {
+  display: block;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+p.name {
+  color: #7FCAAD;
+  margin: 30px auto 5px auto;
+  padding: 0;
+}
+
+/*************IVERSON************/
+
+#iverson {
+    display: block;
+    padding: 80px 0;
+    background: #ffffff;
+    border-bottom: 1px solid #f0f3f9;
+}
+
+#iverson img {
+  display: block;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+p.name {
+  color: #7FCAAD;
+  margin: 30px auto 5px auto;
+  padding: 0;
+}
+
+/*************EATON************/
+
+#eaton {
+    display: block;
+    padding: 80px 0;
+    background: #f9fafd;
+    border-bottom: 1px solid #f0f3f9;
+}
+
+#eaton img {
+  display: block;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 2px;
+}
+
+p.name {
+  color: #7FCAAD;
+  margin: 30px auto 5px auto;
+  padding: 0;
+}
+
+
+/*************BEE************/
+
+#bee {
+    display: block;
+    padding: 80px 0;
+    background: #ffffff;
+    border-bottom: 1px solid #f0f3f9;
+}
+
+#bee img {
   display: block;
   width: 48%;
   margin: auto;
