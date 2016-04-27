@@ -352,6 +352,57 @@ p.name {
 
 }
 
+@media only screen and (max-width: 780px) {
+
+  h1, h2, h3 {
+    width: 80%
+  }
+
+  .copy-wrap {
+    width: 80%;
+  }
+
+  #cyrcle img {
+    width: 80%;
+  }
+
+  #weldon img {
+    width: 80%;
+  }
+
+  #d-face img {
+    width: 80%;
+  }
+
+  #d-face img {
+    width: 80%;
+  }
+
+  #josh-keyes img {
+    width: 80%;
+  }
+
+  #weirdo img {
+    width: 80%;
+  }
+
+  #iverson img {
+    width: 80%;
+  }
+
+  #eaton img {
+    width: 80%;
+  }
+
+  #bee img {
+    width: 80%;
+  }
+
+  p.bio {
+    width: 80%;
+  }
+}
+
 @media only screen and (max-width: 520px) {
 
   .example-contain {
