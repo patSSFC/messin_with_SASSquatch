@@ -176,12 +176,12 @@ nav {
   margin-bottom: 50px;
 }
 
-#pop-up-nav li:last-child {
+/*#pop-up-nav li:last-child {
   width: auto%;
   padding: 10px 20px;
   color: #fff;
   background-color: #7FCAAD;
-}
+}*/
 
 #nav-list {
     width: 100%;
@@ -206,13 +206,13 @@ nav {
     padding: 15px;
 }
 
-#nav-list li:last-child {
+/*#nav-list li:last-child {
   margin-left: 10px;
   padding: 12px 20px 12px 20px;
   color: #fff;
   background-color: #7FCAAD;
   border-radius: 2px;
-}
+}*/
 
 .hamburger {
   display: none;

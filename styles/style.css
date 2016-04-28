@@ -38,12 +38,12 @@ img {
 
 section {
     padding: 30px 0;
-    background: #f9fafd;
+    background: #fff;
     border-bottom: 1px solid #f5f6fa;
 }
 
-section:nth-child(even) {
-  background-color: #fff;
+section:nth-child(odd) {
+  background-color: #f9fafd;
 }
 
 h1, h2, h3 {
@@ -196,7 +196,12 @@ nav {
   background-color: #7FCAAD;
 }*/
 
+.res {
+  /*background-color: #fff;*/
+}
+
 .res .nav-contain {
+  background-color: #fff;
   display: block;
   float: none;
   margin: 0 auto;
@@ -206,7 +211,7 @@ nav {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    text-align: center;
+    text-align: right;
 }
 
 .nav-list li:hover {
@@ -917,7 +922,11 @@ input.error {
     padding: 12px 0 12px 0;
   }
   .nav-contain {
-    display: none;
+    /*display: none;*/
+  }
+
+  .nav-list {
+    text-align: right;
   }
 
   .hamburger {
@@ -1002,8 +1011,12 @@ input.error {
       height: auto;
     }
 
+    /*.nav-list {
+      text-align: center;
+    }*/
+
     .nav-list li {
-      display: block;
+      /*display: block;*/
       height: auto;
     }
   }
@@ -1152,5 +1165,11 @@ input.error {
     /*#sodo-corridor a.button {
       width: 97.5%;
     }*/
+  }
+
+  @media only screen and (max-width: 321px) {
+    .nav-list li {
+      padding: 15px 5px;
+    }
   }
 }

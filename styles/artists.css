@@ -2,9 +2,13 @@
   max-width: 960px;
 }
 
-section {
+/*section {
   border: none;
-}
+}*/
+
+/*section:nth-child(odd) {
+    background-color: #fff;
+}*/
 
 h2 {
   margin-top: 0;
