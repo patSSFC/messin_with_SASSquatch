@@ -2,7 +2,7 @@
 /***********PAGE SETUP**********/
 /*******************************/
 
-body {
+/*body {
     z-index: 0;
     margin: 0;
     padding: 0;
@@ -16,11 +16,11 @@ body {
 
 #main-wrap {
     margin: 0 auto;
-}
+}*/
 
 /***********GENERAL CLASS**********/
 
-.clearfix:after {
+/*.clearfix:after {
     content: "";
     display: table;
     clear: both;
@@ -42,7 +42,7 @@ section {
 
 section:nth-child(even) {
   background-color: #fff;
-}
+}*/
 
 h1, h2, h3, h4 {
   width: 48%;
@@ -153,10 +153,10 @@ nav {
     text-align: right;
 }
 
-/*#responsive-nav {
+#responsive-nav {
   padding: 10px 0;
   font-size: 80%;
-}*/
+}
 
 #pop-up-nav {
   display: none;
