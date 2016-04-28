@@ -64,7 +64,7 @@ h1, h2, h3, h4 {
     color: #5f6880;
     width: 48%;
     font-weight: 300;
-    color: #676b79;
+    font-size: 92.5%;
     margin: 0 auto;
     line-height: 1.6em;
     word-spacing: 2px;
@@ -72,20 +72,16 @@ h1, h2, h3, h4 {
     padding: 10px 0;
 }
 
-.copy-wrap p {
-  font-size: 92.5%;
-}
-
-.sub-header h3{
+/*.sub-header h3{
     font-weight: 100;
     font-size: 120%;
     color: #92CEB7;
     line-height: 1.4em;
     width: 80%;
     margin: 30px auto;
-}
+}*/
 
-.button {
+/*.button {
     display: inline-block;
     width: 120px;
     margin: 6px 10px 10px 10px;
@@ -109,7 +105,7 @@ h1, h2, h3, h4 {
 .no-click {
   pointer-events: none;
   background-color: rgba(0, 0, 0, 0.5) !important;
-}
+}*/
 
 /*******************************/
 /*************HEADER************/
@@ -444,9 +440,9 @@ p.bio {
     width: 70%;
   }*/
 
-  .button-wrap {
+  /*.button-wrap {
     margin-top: 20px;
-  }
+  }*/
 
   #footer-inner-wrap {
     padding: 0;

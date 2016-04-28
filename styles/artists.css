@@ -15,8 +15,16 @@ h2 {
 }
 
 .artist-contain {
-  width: 95%;
-  margin: 0 auto 3em auto;
+  display: block;
+  padding: 80px 0;
+}
+
+.artist-contain img {
+  display: block;
+  width: 48%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 2px;
 }
 
 .example-contain {
@@ -103,17 +111,13 @@ h1, h2, h3, h4 {
 .copy-wrap {
     color: #5f6880;
     width: 48%;
+    font-size: 92.5%;
     font-weight: 300;
-    color: #676b79;
     margin: 0 auto;
     line-height: 1.6em;
     word-spacing: 2px;
     text-align: left;
     padding: 10px 0;
-}
-
-.copy-wrap p {
-  font-size: 92.5%;
 }
 
 .sub-header h3{
@@ -123,186 +127,6 @@ h1, h2, h3, h4 {
     line-height: 1.4em;
     width: 80%;
     margin: 30px auto;
-}
-
-/*************CYRCLE************/
-
-#cyrcle {
-    display: block;
-    padding: 80px 0;
-    background: #f9fafd;
-    border-bottom: 1px solid #f0f3f9;
-}
-
-#cyrcle img {
-  display: block;
-  width: 48%;
-  margin: auto;
-  margin-top: 30px;
-  border-radius: 2px;
-}
-
-p.name {
-  color: #7FCAAD;
-  margin: 30px auto 5px auto;
-  padding: 0;
-}
-
-/*************WELDON************/
-
-#weldon {
-    display: block;
-    padding: 80px 0;
-    background: #ffffff;
-    border-bottom: 1px solid #f0f3f9;
-}
-
-#weldon img {
-  display: block;
-  width: 48%;
-  margin: auto;
-  margin-top: 30px;
-  border-radius: 2px;
-}
-
-p.name {
-  color: #7FCAAD;
-  margin: 30px auto 5px auto;
-  padding: 0;
-}
-
-/*************D*FACE************/
-
-#d-face {
-    display: block;
-    padding: 80px 0;
-    background: #f9fafd;
-    border-bottom: 1px solid #f0f3f9;
-}
-
-#d-face img {
-  display: block;
-  width: 48%;
-  margin: auto;
-  margin-top: 30px;
-  border-radius: 2px;
-}
-
-p.name {
-  color: #7FCAAD;
-  margin: 30px auto 5px auto;
-  padding: 0;
-}
-
-/*************KEYES************/
-
-#josh-keyes {
-    display: block;
-    padding: 80px 0;
-    background: #ffffff;
-    border-bottom: 1px solid #f0f3f9;
-}
-
-#josh-keyes img {
-  display: block;
-  width: 48%;
-  margin: auto;
-  margin-top: 30px;
-  border-radius: 2px;
-  border: 1px solid #f0f3f9;
-}
-
-p.name {
-  color: #7FCAAD;
-  margin: 30px auto 5px auto;
-  padding: 0;
-}
-
-/*************WEIRDO************/
-
-#weirdo {
-    display: block;
-    padding: 80px 0;
-    background: #f9fafd;
-    border-bottom: 1px solid #f0f3f9;
-}
-
-#weirdo img {
-  display: block;
-  width: 48%;
-  margin: auto;
-  margin-top: 30px;
-  border-radius: 2px;
-}
-
-p.name {
-  color: #7FCAAD;
-  margin: 30px auto 5px auto;
-  padding: 0;
-}
-
-/*************IVERSON************/
-
-#iverson {
-    display: block;
-    padding: 80px 0;
-    background: #ffffff;
-    border-bottom: 1px solid #f0f3f9;
-}
-
-#iverson img {
-  display: block;
-  width: 48%;
-  margin: auto;
-  margin-top: 30px;
-  border-radius: 2px;
-}
-
-p.name {
-  color: #7FCAAD;
-  margin: 30px auto 5px auto;
-  padding: 0;
-}
-
-/*************EATON************/
-
-#eaton {
-    display: block;
-    padding: 80px 0;
-    background: #f9fafd;
-    border-bottom: 1px solid #f0f3f9;
-}
-
-#eaton img {
-  display: block;
-  width: 48%;
-  margin: auto;
-  margin-top: 30px;
-  border-radius: 2px;
-}
-
-p.name {
-  color: #7FCAAD;
-  margin: 30px auto 5px auto;
-  padding: 0;
-}
-
-
-/*************BEE************/
-
-#bee {
-    display: block;
-    padding: 80px 0;
-    background: #ffffff;
-    border-bottom: 1px solid #f0f3f9;
-}
-
-#bee img {
-  display: block;
-  width: 48%;
-  margin: auto;
-  margin-top: 30px;
-  border-radius: 2px;
 }
 
 p.name {
@@ -362,40 +186,14 @@ p.name {
     width: 80%;
   }
 
-  #cyrcle img {
-    width: 80%;
+  .artist-contain {
+    padding: 60px 0;
   }
 
-  #weldon img {
+  .artist-contain img {
     width: 80%;
-  }
+    margin: auto;
 
-  #d-face img {
-    width: 80%;
-  }
-
-  #d-face img {
-    width: 80%;
-  }
-
-  #josh-keyes img {
-    width: 80%;
-  }
-
-  #weirdo img {
-    width: 80%;
-  }
-
-  #iverson img {
-    width: 80%;
-  }
-
-  #eaton img {
-    width: 80%;
-  }
-
-  #bee img {
-    width: 80%;
   }
 
   p.bio {
