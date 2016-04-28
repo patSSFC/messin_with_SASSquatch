@@ -1023,6 +1023,11 @@ input.error {
 
   @media only screen and (max-width: 620px) {
 
+    #hero-wrap {
+      margin-top: 30px;
+      width: 65%;
+    }
+
     .button-wrap {
       margin: 35px auto;
     }
