@@ -38,11 +38,12 @@ img {
 
 section {
     padding: 30px 0;
+    background: #fff;
     border-bottom: 1px solid #f5f6fa;
 }
 
-section:nth-child(even) {
-  background-color: #fff;
+section:nth-child(odd) {
+  background-color: #f9fafd;
 }
 
 h1, h2, h3 {
@@ -188,18 +189,19 @@ nav {
   margin-bottom: 50px;
 }
 
-#pop-up-nav li:last-child {
+/*#pop-up-nav li:last-child {
   width: auto;
   padding: 10px 20px;
   color: #fff;
   background-color: #7FCAAD;
+}*/
+
+.res {
+  /*background-color: #fff;*/
 }
 
-#res {
-  /*display: none;*/
-}
-
-#res .nav-contain {
+.res .nav-contain {
+  background-color: #fff;
   display: block;
   float: none;
   margin: 0 auto;
@@ -209,6 +211,7 @@ nav {
     width: 100%;
     margin: 0 auto;
     padding: 0;
+    text-align: right;
 }
 
 .nav-list li:hover {
@@ -227,17 +230,17 @@ nav {
     padding: 15px;
 }
 
-.nav-list li:last-child {
+/*.nav-list li:last-child {
   margin-left: 10px;
   padding: 12px 20px 12px 20px;
   color: #fff;
   background-color: #7FCAAD;
   border-radius: 2px;
-}
+}*/
 
-#nav-list li:last-child:hover {
+/*#nav-list li:last-child:hover {
   background-color: #5AB592;
-}
+}*/
 
 .hamburger {
   display: none;
@@ -363,29 +366,6 @@ nav {
   padding: 10px 20px;
 }
 
-/*#abstract img {
-  width: 30%;
-  height: auto; */
-
-
-  /*
-  height: auto;
-  margin-right: 50px;
-  position: relative;*/
-
-/*#abstract img:nth-of-type(1) {
-  width: 30%;
-}
-
-#abstract img:nth-of-type(2) {
-  width: 20%;
-  top: 10px;
-}
-
-#abstract img:nth-of-type(3) {
-  width: 15%;
-}*/
-
 #sodo-corridor {
   width: 55%;
   margin: 40px auto;
@@ -433,46 +413,46 @@ nav {
     font-weight: 700;
 }
 
-/*#what .copy-wrap, #who .copy-wrap {
-    width: 60%;
-}*/
-
 .button-wrap {
     margin: 35px auto;
     text-align: center;
     width: 100%;
 }
 
-#sodo-corridor button {
+#sodo-corridor a.button {
   cursor: default;
   display: block;
   margin: 40px auto 0 auto;
   width: 69.5%;
   background: #7FCAAD;
   border: 2px solid #7FCAAD;
+  text-align: center;
 }
 
-#sodo-corridor button:hover {
-    background-color: #5AB592;
-    border: 2px solid #5AB592;
-}
-
-#sodo-corridor button:focus {
-    outline: none;
-    border: 2px solid #219C6C;
-}
-
-
-#sodo-corridor button img {
+#sodo-corridor a.button img {
   width: 18px;
   height: 18px;
   display: inline-block;
   margin: -3px 5px;
 }
 
+#sodo-corridor a.button:hover {
+    background-color: #5AB592;
+    border: 2px solid #5AB592;
+}
+
+#sodo-corridor a.button:focus {
+    outline: none;
+    border: 2px solid #219C6C;
+}
+
 /*******************************/
 /**************WHO**************/
 /*******************************/
+
+#who .button {
+  width: auto;
+}
 
 .carousel-contain {
   width: 100%;
@@ -510,8 +490,6 @@ figure.img-contain {
   border-radius: 4px;
   /*width: 70%;*/
   margin: 0 auto;
-  /*width: 70%;*/
-  /*padding-bottom: 75%;*/
   text-align: center;
 }
 
@@ -521,26 +499,12 @@ figure.img-contain {
   max-height: 100%;
   width: auto;
   padding: 0 10px;
-  /*max-width: 100%;*/
-  /*height: auto;
-  width: auto;*/
-  /*position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;*/
 
 }
-
-/*.owl-caroursel .owl-item img {
-  height: 100%;
-}*/
 
 /*******************************/
 /**************SCHEDULE*********/
 /*******************************/
-
-/*#col-wrap {
-  width: 90%;
-  margin: 25px auto;
-}*/
 
 .checkmark {
   width: 18px;
@@ -948,7 +912,7 @@ input.error {
     }
 }
 @media only screen and (min-width: 779px) {
-  #res {
+  .res {
     display: none;
   }
 }
@@ -958,7 +922,11 @@ input.error {
     padding: 12px 0 12px 0;
   }
   .nav-contain {
-    display: none;
+    /*display: none;*/
+  }
+
+  .nav-list {
+    text-align: right;
   }
 
   .hamburger {
@@ -1036,7 +1004,6 @@ input.error {
   @media only screen and (max-width: 635px) {
     nav {
         float: right;
-        /*width: 60%;*/
         text-align: center;
     }
 
@@ -1044,12 +1011,22 @@ input.error {
       height: auto;
     }
 
+    /*.nav-list {
+      text-align: center;
+    }*/
+
     .nav-list li {
-      display: block;
+      /*display: block;*/
+      height: auto;
     }
   }
 
   @media only screen and (max-width: 620px) {
+
+    #hero-wrap {
+      margin-top: 30px;
+      width: 65%;
+    }
 
     .button-wrap {
       margin: 35px auto;
@@ -1156,9 +1133,9 @@ input.error {
 
   @media only screen and (max-width: 580px) {
 
-    #sodo-corridor button {
+    /*#sodo-corridor a.button {
       width: 95%;
-    }
+    }*/
 
     #col-wrap > div {
       float: none;
@@ -1190,8 +1167,14 @@ input.error {
       width: 75%;
     }
 
-    #sodo-corridor button {
+    /*#sodo-corridor a.button {
       width: 97.5%;
+    }*/
+  }
+
+  @media only screen and (max-width: 321px) {
+    .nav-list li {
+      padding: 15px 5px;
     }
   }
 }

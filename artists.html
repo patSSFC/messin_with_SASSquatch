@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 
 <html>
   <head>
@@ -6,121 +6,200 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="styles/style.css">
     <link type="text/css" rel="stylesheet" href="styles/artists.css">
-    <link type="text/css" rel="stylesheet" href="styles/queries.css">
     <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <div id="head-wrap">
-      <header class="clearfix">
-        <div id="logo-sodo-wrap">
-          <img src="images/sodo_track_logo_nav-crop.png" alt="SODO logo">
-        </div>
-        <span class="hamburger ion-navicon-round"></span>
-        <nav id="nav-contain">
-          <ul id="nav-list">
-            <li class=""><a href="about-us.html"></a></li>
-            <li><a href="artists.html">Artists</a></li>
-            <li>Walls</li>
-            <li><a href="#">Apply for a wall</a></li>
-          </ul>
-        </nav>
-        <div id="pop-up-nav">
-          <ul>
-            <li><a href="/index.html#what">About</a></li>
-            <li><a href="/index.html#who">Artists</a></li>
-            <li>Walls</li>
-            <li><a href="#">Apply for a wall</a></li>
-          </ul>
-        </div>
-      </header>
-
+    <div class="head-wrap">
+        <header class="clearfix">
+          <div id="logo-sodo-wrap">
+            <a href="index.html"><img src="images/sodo_track_logo_nav-crop.png" alt="SODO logo"></a>
+          </div>
+          <!-- <span class="hamburger ion-navicon-round"></span> -->
+          <nav class="nav-contain">
+            <ul class="nav-list">
+              <li><a href="about-us.html">About</a></li>
+              <li><a href="artists.html">Artists</a></li>
+            </ul>
+          </nav>
+        </header>
+      <!-- <div class="head-wrap res">
+        <header class="clearfix">
+          <nav class="nav-contain">
+            <ul class="nav-list">
+              <li><a href="about-us.html">About</li>
+              <li><a href="artists.html">Artists</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div> -->
     </div>
 
-    <div id="main-wrap" class="clearfix">
-      <section id="artists-contain" class="row">
-        <article class="artist-contain clearfix">
-          <figure class="example-contain">
-            <img src="images/artists/max-height-1000px/artist_carousel_cyrcle.jpg" alt="Cyrcle">
+    <div id="main-wrap">
+    <section class="artist-contain">
+      <div>
+        <!-- <figure class="bio-pic">
+          <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
+        </figure> -->
+        <h3>Cyrcle</h3>
+        <div class="artist">
+          <img class="artist-work" src="images/artists/max-height-1000px/artist_carousel_cyrcle.jpg" alt="Cyrcle">
+          <p class="copy-wrap name"><a href="http://cyrcle.com" target="_blank">cyrcle.com</a></p>
+          <p class="copy-wrap bio">CYRCLE. makes murals, paintings, sculptures, and interactive installations that explore themes of life, duality, and the human condition. Employing a street art aesthetic and inspired by the traditions of graffiti and graphic design, the artistic duo of David Leavitt and David Torres (also known as Rabi and Davey) strives to reach an audience beyond those who intentionally seek out art. Their 2014 installation ORGANIZED CHAOS! explored the idea of pollination as a metaphor for society. The interactive puzzle invited viewers to take small cubes from crates and place them in gridded frames, like a bee taking pollen from a flower and bringing it to the hive. The work’s message was counterintuitive and direct: although nothing can exist without order, organizations cannot evolve without chaos.</p>
+        </div>
+    </section>
+
+    <section class="artist-contain">
+      <div>
+        <!-- <figure class="bio-pic">
+          <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
+        </figure> -->
+        <h3>Casey Weldon</h3>
+        <div class="artist" >
+          <img class="artist-work" src="images/artists/max-height-1000px/artist_carousel_casey_weldon.jpg" alt="Cyrcle">
+          <p class="copy-wrap name"><a href="http://caseyweldon.bigcartel.com/" target="_blank">caseyweldon.com</a></p>
+          <p class="copy-wrap bio">Born in Southern California, Casey Weldon spent the majority of his formative years there graduating from the Art Center College of Design in Pasadena. After operating a studio out of Las Vegas, Weldon relocated to New York, then California, and now Seattle where he works as a full time artist. His fine art, imbued with a sumptuous illustrative quality, is indicative of his profession. Weldon mixes iconography of today and the past to evoke a sense of humor, nostalgia, fantasy and even melancholy within the viewer. His pallet and haunting subjects recall the Surrealist masters like Breton and de Chirico.</p>
+          <p class="copy-wrap bio">Of his recent exhibit “Tropefiend" at San Francisco’s Spoke Art Gallery, he shares, “The subject matter has been more about dying man-made media, like television, radio, and print, and having them lost in the overgrowth of the constant of nature. It’s more natural than magical – maybe supernatural.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="artist-contain">
+      <div>
+        <!-- <figure class="bio-pic">
+          <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
+        </figure> -->
+        <h3>D*Face</h3>
+        <div class="artist" >
+          <img class="artist-work" src="images/artists/max-height-1000px/artist_carousel_d_face.jpg" alt="Cyrcle">
+          <p class="copy-wrap name"><a href="http://www.dface.co.uk/" target="_blank">dface.co.uk</a></p>
+          <p class="copy-wrap bio">D*Face (British, b.1978) is an elusive London Street painter. His identity remained a mystery until 2008, when he revealed his real name to be Dean Stockton. Stockton was raised in London by working class parents and admits to having been fascinated by Graffiti from an early age. In the 1980s, Stockton was introduced to the magazine Thrasher, which he credits with changing his life. The graphic images, punk references, and skateboard designs inspired the artist's urban style. As a young man, he dreamed of visiting skate parks in California. However, his parents were poor, and this was not an option. At the time, London did not have many skate parks, and the young man had to be resourceful if he wanted to skate. This made him look at the city in a different way and influenced his art.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="artist-contain">
+      <div>
+        <!-- <figure class="bio-pic">
+          <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
+        </figure> -->
+        <h3>Josh Keyes</h3>
+        <div class="artist" >
+          <img class="artist-work" src="images/artists/max-height-1000px/artist_carousel_josh_keys.jpg" alt="Josh Keyes">
+          <p class="copy-wrap name"><a href="http://www.joshkeyes.com/" target="_blank">joshkeyes.com</a></p>
+          <p class="copy-wrap bio">Josh Keyes, like so many of us, is deeply concerned by the consequences humanity’s actions are wreaking on our environment and their harmful impact on the Earth and it’s future. Shooting from this standpoint, Keyes composes allegorical dystopian visions which deliver messages geared to provide a wake up call to the masses. Painted with a masterly touch and rendered with compelling realism, Josh’s images produce a tangibility that seriously strengthens the power of his forewarnings. Almost totally devoid of human beings, the world Keyes envisions, is populated by animals forced to evolve and adapt to a new way of life amid the symbolic remnants of humankind’s ultimately thwarted legacy. These fantastical scenarios of displacement come from a profoundly personal locus within Keyes and serve as a representation of his private psychic landscape.</p>
+          <p class="copy-wrap bio">Josh was born in 1969 in Tacoma, Washington and currently live in Portland, Oregon with his wife and artist Lisa Ericson. He received his BFA in 1992 from the School of the Art Institute of Chicago and an MFA in 1998 from Yale University School of Art. His work resides in numerous private and public collections throughout the world.<br>- WOWXWOW</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="artist-contain">
+      <div>
+        <!-- <figure class="bio-pic">
+          <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
+        </figure> -->
+        <h3>Weirdo</h3>
+        <div class="artist" >
+          <img class="artist-work" src="images/artists/max-height-1000px/artist_carousel_weirdo.jpg" alt="Weirdo">
+          <p class="copy-wrap name"><a href="http://www.weirdocult.com/" target="_blank">weirdocult.com</a></p>
+          <p class="copy-wrap bio">For the last decade Jeff “Weirdo” Jacobson has been a prominent force the urban contemporary scene in Seattle. From his vividly inspiring city block mural on 2nd Ave in downtown Seattle, to his inclusion in Chase Jarvis’ “Seattle 100” book of the most influential people in Seattle, Jacobson has been a making major strides and his career as an in demand emerging artist has been blooming. He recently received the prestigious 4Culture/Artist Trust “Conductive Garboil Grant” in 2011 for his murals in the Seattle’s historic Pioneer Square area. In addition to his larger than life spray-painted walls, Jeff is also known for his hyperrealistic yet surrealistically dreamlike gallery work. His canvases reflect his vision of a changing world underscored by darkness, yet balanced by a creative benevolent force. His work often features grotesquely surrealistic organic forms, inspired by plants, funguses, and corals, which sprout from hyper-realistic portraits. These figures and portraits display and astonishing level of finish and detail.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="artist-contain">
+      <div>
+        <!-- <figure class="bio-pic">
+          <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
+        </figure> -->
+        <h3>Mary Iverson</h3>
+        <div class="artist" >
+          <img class="artist-work" src="images/artists/max-height-1000px/artist_carousel_mary_iverson.jpg" alt="Mary Iverson">
+          <p class="copy-wrap name"><a href="http://maryiverson.com/" target="_blank">maryiverson.com</a></p>
+          <p class="copy-wrap bio">"Mary Iverson is an exquisite landscape painter with a razor-sharp contemporary edge. On the surface, we see activism, her collages and paintings warning us of a dystopic future existence. But the truth is, this apocalpyse is happening now. Through her paintings of rogue shipping containers invading precious, untouched vistas, she uncovers the gross excess and collateral damages of the shipping industry, and ultimately, commercialism.”<br>- Kristin Farr, Juxtapoz Magazine</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="artist-contain">
+      <div>
+        <!-- <figure class="bio-pic">
+          <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
+        </figure> -->
+        <h3>Tristan Eaton</h3>
+        <div class="artist" >
+          <img class="artist-work" src="images/artists/max-height-1000px/artist_carousel_tristan_eaton.jpg" alt="Tristan Eaton">
+          <p class="copy-wrap name"><a href="
+http://www.tristaneaton.net/" target="_blank">tristaneaton.net</a></p>
+          <p class="copy-wrap bio">Born in Los Angeles in 1978, Tristan began pursuing street art as a teenager, painting everything from walls to billboards in the urban landscape wherever he lived, including London, Detroit and Brooklyn. After growing up on comic books, graffiti and skateboard culture, Tristan designed his first toy for Fisher Price at 18 years old and began working as an artist full-time. He has since become a driving force in the world of ‘Art Toys’, designing the Dunny and Munny figures for Kidrobot.</p>
+          <p class="copy-wrap bio">Shortly after studying at the School of Visual Arts in New York City, Tristan founded Thunderdog Studios, of which he was the President and Creative Director for 10 years. Thunderdog Studios regularly designs and consults for clients such as Nike, Disney and Barack Obama on projects that span the globe across all mediums.</p>
+          <p class="copy-wrap bio">In 2012, Tristan moved back to his childhood home of Los Angeles to pursue his paintings and large scale mural projects full-time.Tristan’s work can be seen in galleries around the world and in the permanent collection of the New York Museum of Modern Art (MOMA).</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="artist-contain">
+      <div>
+        <!-- <figure class="bio-pic">
+          <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
+        </figure> -->
+        <h3>Syd Bee</h3>
+        <div class="artist" >
+          <img class="artist-work" src="images/artists/max-height-1000px/artist_carousel_syd_bee.jpg" alt="Syd Bee">
+          <p class="copy-wrap name"><a href="
+http://www.sydbee.com/" target="_blank">sydbee.com</a></p>
+          <p class="copy-wrap bio">Syd earned her BFA magna cum laude from Cornish College of the Arts in 2013. She lives and works in Seattle, where she can be found surrounded by a library of fairy tales, comic books, and two fat cats.</p>
+          <p class="copy-wrap bio">"Syd Bee is a Seattle-based painter that creates figurative paintings that often appear to exist in a dreamlike state. Working in oils, the artist employs a technique of creating a pastel-hued glow around her subjects. Bee enjoys the way the soft outer edges of the paintings feel optically; which enhances the mysterious effect produced by her oil paintings." <br> - Nathan Spoor, Hi-Fructose</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div id="footer-inner-wrap" class="row clearfix">
+        <div id="left-contain">
+          <figure>
+            <img src="images/sodo_track_logo_nav-crop.png" alt="footer logo">
           </figure>
-          <div class="bio-contain">
-            <h2>Artist Name</h2>
-            <figure class="bio-pic">
-              <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
-            </figure>
-            <p class="copy-wrap">
-              The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Mogul talk. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Cloth talk. The key to more success is to get a massage once a week, very important, major key, cloth talk. They never said winning was easy. Some people can’t handle success, I can. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.
-            </p>
+          <p class="copy-wrap">
+            The SODO Track is a collective funded by 4Culture and the City of Seattle to paint the walls of Seattle's bus corridor.
+          </p>
+          <div id="copyright">
+            <p>The SODO Track. 2016. Made with love in Seattle.</p>
           </div>
-        </article>
-        <article class="artist-contain clearfix">
-          <figure class="example-contain fourthree">
-            <img src="images/artists/max-height-1000px/artist_carousel_weirdo.jpg" alt="Cyrcle">
-          </figure>
-          <div class="bio-contain">
-            <h2>Artist Name</h2>
-            <figure class="bio-pic">
-              <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
-            </figure>
-            <p class="copy-wrap">
-              The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Mogul talk. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Cloth talk. The key to more success is to get a massage once a week, very important, major key, cloth talk. They never said winning was easy. Some people can’t handle success, I can. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.
-            </p>
+        </div>
+        <div id="right-contain" class="clearfix">
+          <div class="clearfix">
+            <ul>
+              <li>About The Project</li>
+              <li><a href="about-us.html">About Us</a></li>
+              <!-- <li>Our Partners</li> -->
+            </ul>
+            <ul>
+              <li>Our Walls</li>
+              <li><a href="artists.html">Our Artists</a></li>
+              <!-- <li class="link">Apply for our roster</li> -->
+            </ul>
           </div>
-        </article>
-        <article class="artist-contain clearfix">
-          <figure class="example-contain">
-            <img src="images/artists/max-height-1000px/artist_carousel_mary_iverson.jpg" alt="Cyrcle">
-          </figure>
-          <div class="bio-contain">
-            <h2>Artist Name</h2>
-            <figure class="bio-pic">
-              <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
-            </figure>
-            <p class="copy-wrap">
-              The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Mogul talk. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Cloth talk. The key to more success is to get a massage once a week, very important, major key, cloth talk. They never said winning was easy. Some people can’t handle success, I can. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.
-            </p>
+          <!-- TODO: Add later
+          <div class="clearfix">
+            <ul>
+              <li>We're Social</li>
+              <li>test</li>
+              <li>test</li>
+            </ul>
+            <ul>
+              <li>Get Involved</li>
+              <li>test</li>
+              <li>test</li>
+            </ul>
+          -->
           </div>
-        </article>
-        <article class="artist-contain clearfix">
-          <figure class="example-contain fourthree">
-            <img src="images/artists/max-height-1000px/artist_carousel_casey_weldon.jpg" alt="Cyrcle">
-          </figure>
-          <div class="bio-contain">
-            <h2>Artist Name</h2>
-            <figure class="bio-pic">
-              <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
-            </figure>
-            <p class="copy-wrap">
-              The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Mogul talk. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Cloth talk. The key to more success is to get a massage once a week, very important, major key, cloth talk. They never said winning was easy. Some people can’t handle success, I can. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.
-            </p>
-          </div>
-        </article>
-        <article class="artist-contain clearfix">
-          <figure class="example-contain fourthree">
-            <img src="images/artists/max-height-1000px/artist_carousel_syd_bee.jpg" alt="Cyrcle">
-          </figure>
-          <div class="bio-contain">
-            <h2>Artist Name</h2>
-            <figure class="bio-pic">
-              <img src="images/artist_pic.jpg" alt="Artist Profile Picture">
-            </figure>
-            <p class="copy-wrap">
-              The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Mogul talk. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Cloth talk. The key to more success is to get a massage once a week, very important, major key, cloth talk. They never said winning was easy. Some people can’t handle success, I can. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started.
-            </p>
-          </div>
-        </article>
-      </section>
-    </div>
+        </div>
+      </div>
+  </section>
+  </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
     <script src="scripts/basic.js"></script>
-    <script>
-
-     $('.hamburger').on ('click', function() {
-       $('#pop-up-nav').slideToggle();
-       $('#main-wrap').toggleClass('no-click');
-     });
-     // });
-    </script>
   </body>
 </html>
