@@ -326,6 +326,7 @@ p.name {
 
 p.bio {
   width: 48%;
+  font-size: 80%;
 }
 
 /*************THEME************/
@@ -585,7 +586,7 @@ p.bio {
 
     #corridor-map {
       display: block;
-      width: 100%;
+      width: 90%;
       margin: auto;
     }
 
