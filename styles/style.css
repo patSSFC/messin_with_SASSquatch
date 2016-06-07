@@ -43,7 +43,7 @@ section {
 }
 
 section:nth-child(odd) {
-  background-color: #f9fafd;
+  background-color: #f5f6fa;
 }
 
 h1, h2, h3 {
@@ -57,12 +57,12 @@ h1, h2, h3 {
 
 .copy-wrap {
     color: #9098AD;
-    width: 50%;
-    font-size: 90%;
+    width: 46%;
+    font-size: 88%;
     font-weight: 300;
     margin: 0 auto;
     margin-bottom: 10px;
-    line-height: 1.5em;
+    line-height: 1.6em;
     text-align: center;
 }
 
@@ -379,6 +379,10 @@ nav {
   padding: 10px 20px;
 }
 
+#what .full {
+  margin-bottom: 30px;
+}
+
 #sodo-corridor {
   width: 55%;
   margin: 40px auto;
@@ -592,7 +596,7 @@ figure.img-contain {
 
 #left figure, #right figure {
   width: 7%;
-  margin: 5% 14% 5% 10%;
+  margin: 34% 14% 5% 10%;
 }
 
 .incomplete {
@@ -636,7 +640,7 @@ input.error {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: #f9fafd;
 }
 
 .input-wrapper.short {
@@ -777,6 +781,7 @@ input.error {
 
 .footer-link {
   color: #7FCAAD !important;
+  margin: 20px 0 0 0 !important;
 }
 
 .footer-copy-wrap {
@@ -785,6 +790,10 @@ input.error {
   font-weight: 200;
   width: 100%;
   text-align: left;
+}
+
+.footer-copy-wrap p {
+  margin: none;
 }
 
 #right-contain {
@@ -930,7 +939,7 @@ input.error {
     }
 
     #left-contain .copy-wrap {
-        width: 85%;
+        width: 55%;
         margin-top: 10px;
         text-align: inherit;
     }
@@ -1187,7 +1196,7 @@ input.error {
     }
 
     .sub-header h3 {
-      width: 65%;
+      width: 81%;
     }
 
     #left > ul, #right > ul {
