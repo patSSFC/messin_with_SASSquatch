@@ -382,7 +382,7 @@ nav {
 #sodo-corridor {
   width: 55%;
   margin: 40px auto;
-  background: #F9FFFD;
+  background: #ecfff9;
   padding: 4% 7% 7% 7%;
   border: 1px solid rgba(127, 202, 173, 0.8);
 }
@@ -591,7 +591,7 @@ figure.img-contain {
 }
 
 #left figure, #right figure {
-  width: 10%;
+  width: 7%;
   margin: 5% 14% 5% 10%;
 }
 
