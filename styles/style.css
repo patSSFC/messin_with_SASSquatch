@@ -775,6 +775,18 @@ input.error {
   text-align: left;
 }
 
+.footer-link {
+  color: #7FCAAD !important;
+}
+
+.footer-copy-wrap {
+  color: #CBCED6;
+  font-size: 80%;
+  font-weight: 200;
+  width: 100%;
+  text-align: left;
+}
+
 #right-contain {
   display: inline-block;
   width: 45%;
@@ -930,6 +942,11 @@ input.error {
         padding: 0;
 
         text-align: center;
+    }
+
+    .footer-copy-wrap {
+      margin-top: 10px;
+      text-align: inherit;
     }
 }
 @media only screen and (min-width: 779px) {
