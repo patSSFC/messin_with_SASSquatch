@@ -616,6 +616,70 @@ figure.img-contain {
   margin: 40px auto 20px auto;
 }
 
+#contact .copy-wrap:after {
+    display: block;
+    height: 1px;
+    border-bottom: 1px solid rgba(155, 165, 189, 0.3);
+    content: "";
+    width: 150px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.info-text {
+    color: #9098AD;
+    width: 40%;
+    font-size: 88%;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+.info-text a {
+  color: #7FCAAD;
+}
+
+#contact .bold-title:before {
+    display: block;
+    height: 1px;
+    border-bottom: 1px solid rgba(155, 165, 189, 0.3);
+    content: "";
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.bold-title {
+  color: #9098AD;
+  width: 40%;
+  font-size: 88%;
+  font-weight: 500;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+.more-info button {
+  width: 40%;
+  margin: auto;
+}
+
+.more-info button:hover {
+  background-color: #5AB592;
+  border: 2px solid #5AB592;
+}
+
+.more-info button:focus {
+  outline: none;
+  border: 2px solid #219C6C;
+}
+
 input {
     display: inline-block;
     background-color: #ffffff;
