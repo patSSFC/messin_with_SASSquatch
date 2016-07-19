@@ -679,7 +679,7 @@ figure.img-contain {
   color: #7FCAAD;
 }
 
-#contact .bold-title:before {
+/*#contact .bold-title:before {
     display: block;
     height: 1px;
     border-bottom: 1px solid rgba(155, 165, 189, 0.3);
@@ -688,7 +688,7 @@ figure.img-contain {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 30px;
-}
+}*/
 
 .bold-title {
   color: #9098AD;
@@ -702,10 +702,14 @@ figure.img-contain {
   text-align: left;
 }
 
-.more-info button {
+.more-info h3 {
+    font-weight: 100;
+}
+
+/*.more-info button {
   width: 40%;
   margin: auto;
-}
+}*/
 
 .more-info button:hover {
   background-color: #5AB592;
