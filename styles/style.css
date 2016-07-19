@@ -250,6 +250,43 @@ nav {
 }
 
 /*******************************/
+/***************EVENT************/
+/*******************************/
+
+#event {
+  background-color: #7FCAAD;
+}
+
+#event h3 {
+  color: #3b735d;
+  font-weight: 300;
+}
+
+#event h4 {
+  color: #3b735d;
+  font-weight: 400;
+}
+
+#event p {
+  color: #fff;
+  margin: 10px auto 20px auto
+  width: 60%;
+}
+
+#splash-wrap {
+  /*display: block;*/
+  margin: 20px auto;
+  border-radius: 4px;
+}
+
+#splash-wrap img {
+  width: 40%;
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+/*******************************/
 /***************SPLASH************/
 /*******************************/
 
@@ -268,7 +305,7 @@ nav {
   width: 5%;
   margin: 10px auto;
   background: #fff;
-  border: 1px solid #f5f6fa;
+  border: 1px solid #7FCAAD;
   border-radius: 6px;
   padding: 1.6%;
 }
@@ -293,7 +330,7 @@ nav {
     display: inline-block;
     margin-top: 14px;
     text-decoration: none;
-    color: ##5f6880;
+    color: #5f6880;
     width: 80%;
     font-size: 85%;
     -webkit-transition: color .2s;
@@ -1277,6 +1314,10 @@ input.error {
       width: 100%;
     }
 
+    #splash-wrap img {
+      width: 70%;
+    }
+
     #hero-logo {
       width: 12%;
       padding: 3.6%;
@@ -1284,6 +1325,11 @@ input.error {
   }
 
   @media only screen and (max-width: 400px) {
+
+    #splash-wrap img {
+      width: 85%;
+    }
+
     #left li, #right li {
       width: 75%;
     }
@@ -1294,6 +1340,11 @@ input.error {
   }
 
   @media only screen and (max-width: 321px) {
+
+    #splash-wrap img {
+      width: 92%;
+    }
+
     .nav-list li {
       padding: 15px 5px;
     }
