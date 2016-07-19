@@ -706,10 +706,10 @@ figure.img-contain {
     font-weight: 100;
 }
 
-.more-info button {
+/*.more-info button {
   width: 40%;
   margin: auto;
-}
+}*/
 
 .more-info button:hover {
   background-color: #5AB592;
