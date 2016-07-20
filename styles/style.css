@@ -269,9 +269,10 @@ nav {
 
 #event p {
   color: #fff;
-  margin: 10px auto 20px auto
-  width: 60%;
+  margin: 10px auto 20px auto;
+  width: 100%;
 }
+
 
 #splash-wrap {
   /*display: block;*/
@@ -653,7 +654,7 @@ figure.img-contain {
   margin: 40px auto 20px auto;
 }
 
-#contact .copy-wrap:after {
+/*#contact .copy-wrap:after {
     display: block;
     height: 1px;
     border-bottom: 1px solid rgba(155, 165, 189, 0.3);
@@ -661,11 +662,16 @@ figure.img-contain {
     width: 150px;
     margin: auto;
     margin-top: 30px;
+}*/
+
+.sponsor-info {
+  width: 50%;
+  margin: auto;
+  display: block;
 }
 
 .info-text {
     color: #9098AD;
-    width: 40%;
     font-size: 88%;
     font-weight: 300;
     margin: 0 auto;
@@ -677,9 +683,14 @@ figure.img-contain {
 
 .info-text a {
   color: #7FCAAD;
+  text-decoration:underline;
 }
 
-/*#contact .bold-title:before {
+.sponsor-info .copy-wrap {
+  width: 100%;
+}
+
+#contact .bold-title:before {
     display: block;
     height: 1px;
     border-bottom: 1px solid rgba(155, 165, 189, 0.3);
@@ -688,11 +699,10 @@ figure.img-contain {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 30px;
-}*/
+}
 
 .bold-title {
   color: #9098AD;
-  width: 40%;
   font-size: 88%;
   font-weight: 500;
   margin: 0 auto;
@@ -702,21 +712,17 @@ figure.img-contain {
   text-align: left;
 }
 
-.more-info h3 {
-    font-weight: 100;
+.sponsor-info button {
+  width: 100%;
+  margin: auto;
 }
 
-/*.more-info button {
-  width: 40%;
-  margin: auto;
-}*/
-
-.more-info button:hover {
+.sponsor-info button:hover {
   background-color: #5AB592;
   border: 2px solid #5AB592;
 }
 
-.more-info button:focus {
+.sponsor-info button:focus {
   outline: none;
   border: 2px solid #219C6C;
 }
@@ -835,6 +841,7 @@ input.error {
 /*******************************/
 
 #more-info {
+
   display: block;
   padding: 40px 0;
   background: #7FCAAD;
@@ -1001,6 +1008,10 @@ input.error {
     width: 50%;
   }
 
+  .sponsor-info {
+    width: 50%;
+  }
+
   #left figure, #right figure {
     display: none;
   }
@@ -1024,6 +1035,10 @@ input.error {
   }
 
   #contact-form-wrap {
+    width: 75%;
+  }
+
+  .sponsor-info {
     width: 75%;
   }
 
@@ -1153,6 +1168,10 @@ input.error {
       width: 80%;
     }
 
+    #event p {
+      width: 66%;
+    }
+
     #logo-wrap {
       width: 70%;
     }
@@ -1265,6 +1284,10 @@ input.error {
       width: 85%;
     }
 
+    .sponsor-info {
+      width: 85%;
+    }
+
     #right-contain {
       width: 100%;
       float: none;
@@ -1348,6 +1371,11 @@ input.error {
     #splash-wrap img {
       width: 92%;
     }
+
+    #event p {
+      width: 78%;
+    }
+
 
     .nav-list li {
       padding: 15px 5px;
