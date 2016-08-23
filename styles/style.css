@@ -102,6 +102,22 @@ h1, h2, h3 {
   border: 2px solid #219C6C;
 }
 
+.alt {
+    background-color: #9AA3BD;
+    color: #fff;
+    border: 2px solid #9AA3BD;
+}
+
+.alt:hover {
+  background-color: #848ea9;
+  border: 2px solid #848ea9;
+}
+
+.alt:focus {
+  outline: none;
+  border: 2px solid #5e667d;
+}
+
 .ghost {
     color: #7FCAAD;
 }
@@ -115,6 +131,47 @@ h1, h2, h3 {
 .no-click {
   pointer-events: none;
   background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*******************************/
+/*************ANNOUNCEMENT************/
+/*******************************/
+
+.announcement-bar {
+  margin: 0 auto;
+  background-color: #F15D56;
+}
+
+.announcement-txt {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.announcement-txt a {
+  margin: 0 auto;
+}
+
+.announcement-txt p {
+  font-family: 'Helvetica', 'Tahoma', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0 auto;
+}
+
+.announcement-txt p:hover {
+  text-decoration: underline;
+}
+
+.announcement-txt i {
+  padding-right: 2%;
+  margin-bottom: 2px;
+  height: 15px;
 }
 
 /*******************************/
@@ -1337,6 +1394,12 @@ input.error {
   }
 
   @media only screen and (max-width: 520px) {
+
+    .announcement-txt p {
+      padding-top: 6%;
+      padding-bottom: 6%;
+    }
+
     .input-wrapper.short {
       width: 100%;
     }
