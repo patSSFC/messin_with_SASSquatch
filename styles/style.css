@@ -102,6 +102,22 @@ h1, h2, h3 {
   border: 2px solid #219C6C;
 }
 
+.alt {
+    background-color: #9AA3BD;
+    color: #fff;
+    border: 2px solid #9AA3BD;
+}
+
+.alt:hover {
+  background-color: #848ea9;
+  border: 2px solid #848ea9;
+}
+
+.alt:focus {
+  outline: none;
+  border: 2px solid #5e667d;
+}
+
 .ghost {
     color: #7FCAAD;
 }
