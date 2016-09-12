@@ -1440,6 +1440,17 @@ input.error {
     }
   }
 
+  @media only screen and (max-width: 420px) {
+    #logo-sodo-wrap img {
+      width: 160px;
+      margin-top: 1em;
+    }
+
+    .nav-list li {
+      padding: 12px;
+    }
+  }
+
   @media only screen and (max-width: 400px) {
 
     #splash-wrap img {
