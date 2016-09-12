@@ -305,9 +305,15 @@ nav {
 /*************TEAM************/
 
 #team {
-    display: block;
+    /*display: block;*/
     padding: 80px 0;
     background: #f9fafd;
+}
+
+#team div {
+  /*display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;*/
 }
 
 #team img {
@@ -316,6 +322,11 @@ nav {
   margin: auto;
   margin-top: 30px;
   border-radius: 2px;
+}
+
+.person {
+  /*float: left;
+  width: 40%;*/
 }
 
 p.name {
@@ -335,6 +346,7 @@ p.bio {
     display: block;
     padding: 80px 0;
     background: #ffffff;
+    /*clear: both*/
 }
 
 .rider_logo {
