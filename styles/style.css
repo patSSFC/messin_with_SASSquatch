@@ -330,7 +330,6 @@ nav {
   width: 100%;
 }
 
-
 #splash-wrap {
   /*display: block;*/
   margin: 20px auto;
@@ -347,6 +346,19 @@ nav {
 /*******************************/
 /***************SPLASH************/
 /*******************************/
+
+/*#splash {
+  background-image: url("../images/SODO-Track-Cover.png");
+  background-position: center;
+  background-size: contain;
+}*/
+#splash {
+  padding-top: 0;
+}
+
+#splash img {
+  width: 100%;
+}
 
 #hero-wrap {
     width: 22%;
