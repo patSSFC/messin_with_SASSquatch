@@ -37,9 +37,11 @@ img {
 }
 
 section {
+    /*margin: 0 auto;*/
     padding: 30px 0;
     background: #fff;
     border-bottom: 1px solid #f5f6fa;
+    /*max-width: 1240px;*/
 }
 
 section:nth-child(odd) {
@@ -357,7 +359,10 @@ nav {
 }
 
 #splash img {
+  display: block;
+  margin: 0 auto;
   width: 100%;
+  max-width: 1240px;
 }
 
 #hero-wrap {
